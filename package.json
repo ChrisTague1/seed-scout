@@ -1,0 +1,14 @@
+{
+  "name": "seed-scout",
+  "version": "1.0.0",
+  "description": "Awesome stuff",
+  "main": "index.js",
+  "scripts": {
+    "start": "node main.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "puppeteer": "^24.1.0"
+  }
+}
