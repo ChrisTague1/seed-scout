@@ -118,4 +118,31 @@ async function parseCornPDF(filePath) {
     }
 }
 
-parseCornPDF(file).then(console.log).catch(console.error);
+async function processAllFiles() {
+    const allData = {};
+    
+    // Process each file
+    for (const file of files) {
+        try {
+            console.log(`Processing ${file}...`);
+            const data = await parseCornPDF(file);
+            // Use the name as the key in the object
+            if (data.name) {
+                allData[data.name] = data;
+            }
+        } catch (error) {
+            console.error(`Error processing ${file}:`, error);
+        }
+    }
+    
+    // Write to data.json
+    try {
+        fs.writeFileSync('data.json', JSON.stringify(allData, null, 2));
+        console.log('Successfully wrote data.json');
+    } catch (error) {
+        console.error('Error writing data.json:', error);
+    }
+}
+
+// Run the processing
+processAllFiles().catch(console.error);
