@@ -1,0 +1,4152 @@
+{
+  "DKC081-18RIB": {
+    "name": "DKC081-18RIB",
+    "crop": "Corn",
+    "maturity": "81",
+    "trait": "VT2PRIB",
+    "strengthAndManagement": [
+      "Has shown strong yield potential in RM080 and early side of RM085",
+      "Flair open husk type favoring fast grain drydown",
+      "Girthy ear type responsive to a wide range of plant populations"
+    ],
+    "characteristics": {
+      "Gdus to mid-pollination": "1080",
+      "Gdus to black layer": "2030",
+      "Relative maturity": "81",
+      "Variety": "01104850",
+      "Kernel row": "16"
+    },
+    "agronomics": {
+      "Seedling growth": 2,
+      "Emergence": 3,
+      "Root strength": 3,
+      "Stalk strength": 3,
+      "Drought tolerance": 3,
+      "Greensnap tolerance": 3,
+      "Staygreen": 3,
+      "Harvest appearance": 3,
+      "Drydown": 3,
+      "Test weight": 4
+    },
+    "diseaseTolerance": {
+      "Gray leaf spot": 5,
+      "Common rust": 3,
+      "": 3,
+      "Goss's wilt": 5,
+      "Eye spot": 4,
+      "blight - race": 1
+    },
+    "herbicide": {
+      "Growth regulators": "sensitivityA",
+      "Isoxazoles sensitivity -": "preemergenceA",
+      "Sulfonylureas": "sensitivityA"
+    }
+  },
+  "DKC084-15RIB": {
+    "name": "DKC084-15RIB",
+    "crop": "",
+    "maturity": "",
+    "trait": "",
+    "strengthAndManagement": [
+      "S t ro n g   p e r f o r m a n c e   a c ro s s   y i e l d   e n v i ro n m e n t s   a n d   h a s   d i s p l a y e d   t h e   a b i l i t y   t o   m o v e   n o r t h   o f   R M   z o n e",
+      "A t t r a c t i v e   p l a n t   a p p e a r a n c e ,   w i t h   a n   o p e n   h u s k   o n   s e m i - fl e x   e a r   w i t h   e x c e l l e n t   d r y d o w n",
+      "M e d i u m   s t a t u re d   p ro d u c t   t h a t   fl o w e r s   e a r l y   fi t t i n g   p e r f e c t l y   i n t o   t h e   8 5   R M"
+    ],
+    "characteristics": {
+      "Gdus to mid-pollination": "1090",
+      "Gdus to black layer": "2100",
+      "Relative maturity": "84",
+      "Variety": "01104521",
+      "Kernel row": "18"
+    },
+    "agronomics": {
+      "Seedling growth": 2,
+      "Emergence": 3,
+      "Root strength": 2,
+      "Stalk strength": 3,
+      "Drought tolerance": 2,
+      "Greensnap tolerance": 2,
+      "Staygreen": 2,
+      "Harvest appearance": 3,
+      "Drydown": 3,
+      "Test weight": 3
+    },
+    "diseaseTolerance": {
+      "Gray leaf spot": 5,
+      "Common rust": 3,
+      "": 4,
+      "Goss's wilt": 4,
+      "Eye spot": 4,
+      "blight - race": 1
+    },
+    "herbicide": {
+      "Growth regulators": "sensitivityA",
+      "Isoxazoles sensitivity -": "preemergenceA",
+      "Sulfonylureas": "sensitivityA"
+    }
+  },
+  "DKC092-13RIB": {
+    "name": "DKC092-13RIB",
+    "crop": "Corn",
+    "maturity": "92",
+    "trait": "SSPRIB",
+    "strengthAndManagement": [
+      "Incredible yield potential that is broadly adapted to 90 & early 95 RM zone",
+      "Has exhibited an adaptive, flex ear type responsive to a wide range of populations",
+      "Excellent emergence and vigor enables a wide planting window"
+    ],
+    "characteristics": {
+      "Gdus to mid-pollination": "1216",
+      "Gdus to black layer": "2310",
+      "Relative maturity": "92",
+      "Variety": "01104331",
+      "Kernel row": "18"
+    },
+    "agronomics": {
+      "Seedling growth": 2,
+      "Emergence": 2,
+      "Root strength": 2,
+      "Stalk strength": 2,
+      "Drought tolerance": 3,
+      "Greensnap tolerance": 3,
+      "Staygreen": 3,
+      "Harvest appearance": 3,
+      "Drydown": 2,
+      "Test weight": 3
+    },
+    "diseaseTolerance": {
+      "Gray leaf spot": 6,
+      "Common rust": 3,
+      "": 4,
+      "Goss's wilt": 5,
+      "Eye spot": 3,
+      "blight - race": 1
+    },
+    "herbicide": {
+      "Growth regulators": "sensitivityA",
+      "Isoxazoles sensitivity -": "preemergenceA",
+      "Sulfonylureas": "sensitivityA"
+    }
+  },
+  "DKC092-14RIB": {
+    "name": "DKC092-14RIB",
+    "crop": "Corn",
+    "maturity": "92",
+    "trait": "VT4PRIB",
+    "strengthAndManagement": [
+      "Incredible yield potential that is broadly adapted to 90 & early 95 RM zone",
+      "Has exhibited an adaptive, flex ear type responsive to a wide range of populations",
+      "Excellent emergence and vigor enables a wide planting window"
+    ],
+    "characteristics": {
+      "Gdus to mid-pollination": "1216",
+      "Gdus to black layer": "2310",
+      "Relative maturity": "92",
+      "Variety": "01104528",
+      "Kernel row": "18"
+    },
+    "agronomics": {
+      "Seedling growth": 2,
+      "Emergence": 3,
+      "Root strength": 2,
+      "Stalk strength": 2,
+      "Drought tolerance": 3,
+      "Greensnap tolerance": 4,
+      "Staygreen": 4,
+      "Harvest appearance": 3,
+      "Drydown": 2,
+      "Test weight": 3
+    },
+    "diseaseTolerance": {
+      "Gray leaf spot": 6,
+      "Common rust": 3,
+      "": 5,
+      "Goss's wilt": 5,
+      "Eye spot": 3,
+      "blight - race": 1
+    },
+    "herbicide": {
+      "Growth regulators": "sensitivityA",
+      "Isoxazoles sensitivity -": "preemergenceA",
+      "Sulfonylureas": "sensitivityA"
+    }
+  },
+  "DKC093-76RIB": {
+    "name": "DKC093-76RIB",
+    "crop": "Corn",
+    "maturity": "93",
+    "trait": "SSPRIB",
+    "strengthAndManagement": [
+      "Excellent emergence and seedling vigor enabling wide planting window potential",
+      "Attractive statured plant with medium tall plant height",
+      "Solid northern disease tolerance package including Northern Corn Leaf Blight, Anthracnose Stalk Rot, and Goss’s Wilt"
+    ],
+    "characteristics": {
+      "Gdus to mid-pollination": "1230",
+      "Gdus to black layer": "2325",
+      "Relative maturity": "93",
+      "Variety": "01096142",
+      "Kernel row": "18"
+    },
+    "agronomics": {
+      "Seedling growth": 2,
+      "Emergence": 2,
+      "Root strength": 3,
+      "Stalk strength": 2,
+      "Drought tolerance": 3,
+      "Greensnap tolerance": 3,
+      "Staygreen": 2,
+      "Harvest appearance": 2,
+      "Drydown": 2,
+      "Test weight": 3
+    },
+    "diseaseTolerance": {
+      "Gray leaf spot": 5,
+      "Common rust": 3,
+      "": 4,
+      "Goss's wilt": 4,
+      "Eye spot": 3,
+      "blight - race": 1
+    },
+    "herbicide": {
+      "Growth regulators": "sensitivityA",
+      "Isoxazoles sensitivity -": "preemergenceA",
+      "Sulfonylureas": "sensitivityA"
+    }
+  },
+  "DKC093-77RIB": {
+    "name": "DKC093-77RIB",
+    "crop": "",
+    "maturity": "",
+    "trait": "",
+    "strengthAndManagement": [
+      "E x c e l l e n t   e m e r g e n c e   a n d   s e e d l i n g   v i g o r   e n a b l i n g   w i d e   p l a n t i n g   w i n d o w   p o t e n t i a l",
+      "A t t r a c t i v e   s t a t u re d   p l a n t   w i t h   m e d i u m   t a l l   p l a n t   h e i g h t",
+      "S o l i d   n o r t h e r n   d i s e a s e   t o l e r a n c e   p a c k a g e   i n c l u d i n g   N o r t h e r n   C o r n   L e a f   B l i g h t ,   A n t h r a c n o s e   S t a l k   R o t ,   a n d   G o s s ’s   W i l t"
+    ],
+    "characteristics": {
+      "Gdus to mid-pollination": "1230",
+      "Gdus to black layer": "2325",
+      "Relative maturity": "93",
+      "Variety": "01096599",
+      "Kernel row": "18"
+    },
+    "agronomics": {
+      "Seedling growth": 2,
+      "Emergence": 2,
+      "Root strength": 3,
+      "Stalk strength": 2,
+      "Drought tolerance": 3,
+      "Greensnap tolerance": 3,
+      "Staygreen": 2,
+      "Harvest appearance": 2,
+      "Drydown": 2,
+      "Test weight": 3
+    },
+    "diseaseTolerance": {
+      "Gray leaf spot": 5,
+      "Common rust": 3,
+      "": 4,
+      "Goss's wilt": 4,
+      "Eye spot": 3,
+      "blight - race": 1
+    },
+    "herbicide": {
+      "Growth regulators": "sensitivityA",
+      "Isoxazoles sensitivity -": "preemergenceA",
+      "Sulfonylureas": "sensitivityA"
+    }
+  },
+  "DKC095-57RIB": {
+    "name": "DKC095-57RIB",
+    "crop": "Corn",
+    "maturity": "95",
+    "trait": "VT4PRIB",
+    "strengthAndManagement": [
+      "Offensive product with outstanding yield performance potential",
+      "Has shown response to increasing crop management as it relates to fertility and fungicide",
+      "Has demonstrated good drydown with average test weight"
+    ],
+    "characteristics": {
+      "Gdus to mid-pollination": "1255",
+      "Gdus to black layer": "2400",
+      "Relative maturity": "95",
+      "Variety": "01102532",
+      "Kernel row": "18"
+    },
+    "agronomics": {
+      "Seedling growth": 3,
+      "Emergence": 3,
+      "Root strength": 3,
+      "Stalk strength": 3,
+      "Drought tolerance": 2,
+      "Greensnap tolerance": 3,
+      "Staygreen": 2,
+      "Harvest appearance": 2,
+      "Drydown": 2,
+      "Test weight": 4
+    },
+    "diseaseTolerance": {
+      "Gray leaf spot": 5,
+      "Common rust": 3,
+      "": 5,
+      "Goss's wilt": 5,
+      "Eye spot": 3,
+      "blight - race": 1
+    },
+    "herbicide": {
+      "Growth regulators": "sensitivityA",
+      "Isoxazoles sensitivity -": "preemergenceA",
+      "Sulfonylureas": "sensitivityA"
+    }
+  },
+  "DKC096-21RIB": {
+    "name": "DKC096-21RIB",
+    "crop": "Corn",
+    "maturity": "96",
+    "trait": "TRERIB",
+    "strengthAndManagement": [
+      "Has demonstrated outstanding stress tolerance package",
+      "Solid agronomic package including root strength and stalk strength",
+      "Good greensnap tolerance and Goss’s Wilt disease tolerance enables western placement"
+    ],
+    "characteristics": {
+      "Gdus to mid-pollination": "1265",
+      "Gdus to black layer": "2400",
+      "Relative maturity": "96",
+      "Variety": "01096658",
+      "Kernel row": "16"
+    },
+    "agronomics": {
+      "Seedling growth": 3,
+      "Emergence": 2,
+      "Root strength": 3,
+      "Stalk strength": 3,
+      "Drought tolerance": 2,
+      "Greensnap tolerance": 3,
+      "Staygreen": 3,
+      "Harvest appearance": 4,
+      "Drydown": 2,
+      "Test weight": 3
+    },
+    "diseaseTolerance": {
+      "Gray leaf spot": 6,
+      "Common rust": 3,
+      "": 3,
+      "Goss's wilt": 4,
+      "Eye spot": 3,
+      "blight - race": 1
+    },
+    "herbicide": {
+      "Growth regulators": "sensitivityA",
+      "Isoxazoles sensitivity -": "preemergenceA",
+      "Sulfonylureas": "sensitivityA"
+    }
+  },
+  "DKC098-88RIB": {
+    "name": "DKC098-88RIB",
+    "crop": "Corn",
+    "maturity": "98",
+    "trait": "VT4PRIB",
+    "strengthAndManagement": [
+      "Excellent yield performance potential with broad east to west placement",
+      "Very good emergence and seedling vigor offer flexible planting window",
+      "Strong defensive agronomic package with excellent root strength, good stalk strength, and very good greensnap tolerance"
+    ],
+    "characteristics": {
+      "Gdus to mid-pollination": "1270",
+      "Gdus to black layer": "2465",
+      "Relative maturity": "98",
+      "Variety": "01102542",
+      "Kernel row": "18"
+    },
+    "agronomics": {
+      "Seedling growth": 2,
+      "Emergence": 2,
+      "Root strength": 2,
+      "Stalk strength": 3,
+      "Drought tolerance": 2,
+      "Greensnap tolerance": 3,
+      "Staygreen": 3,
+      "Harvest appearance": 3,
+      "Drydown": 2,
+      "Test weight": 3
+    },
+    "diseaseTolerance": {
+      "Gray leaf spot": 5,
+      "Common rust": 3,
+      "": 4,
+      "Goss's wilt": 4,
+      "Eye spot": 3,
+      "blight - race": 1
+    },
+    "herbicide": {
+      "Growth regulators": "sensitivityA",
+      "Isoxazoles sensitivity -": "preemergenceA",
+      "Sulfonylureas": "sensitivityA"
+    }
+  },
+  "DKC099-11RIB": {
+    "name": "DKC099-11RIB",
+    "crop": "Corn",
+    "maturity": "99",
+    "trait": "VT2PRIB",
+    "strengthAndManagement": [
+      "Excellent emergence and seedling vigor enabling wide planting window",
+      "Good staygreen and late season harvest appearance on this medium statured product",
+      "Widely adapted across geographies with impressive yield performance"
+    ],
+    "characteristics": {
+      "Gdus to mid-pollination": "1275",
+      "Gdus to black layer": "2485",
+      "Relative maturity": "99",
+      "Variety": "01096677",
+      "Kernel row": "16"
+    },
+    "agronomics": {
+      "Seedling growth": 2,
+      "Emergence": 2,
+      "Root strength": 3,
+      "Stalk strength": 3,
+      "Drought tolerance": 2,
+      "Greensnap tolerance": 3,
+      "Staygreen": 2,
+      "Harvest appearance": 2,
+      "Drydown": 3,
+      "Test weight": 4
+    },
+    "diseaseTolerance": {
+      "Gray leaf spot": 4,
+      "Common rust": 3,
+      "": 5,
+      "Goss's wilt": 4,
+      "Eye spot": 3,
+      "blight - race": 1
+    },
+    "herbicide": {
+      "Growth regulators": "sensitivityA",
+      "Isoxazoles sensitivity -": "preemergenceA",
+      "Sulfonylureas": "sensitivityA"
+    }
+  },
+  "DKC101-33RIB": {
+    "name": "DKC101-33RIB",
+    "crop": "Corn",
+    "maturity": "101",
+    "trait": "SSPRIB",
+    "strengthAndManagement": [
+      "Has displayed outstanding yield potential and stable performance across environments",
+      "Has demonstrated good emergence and excellent early growth",
+      "Disease tolerance package includes strong Northern Corn Leaf Blight, Anthracnose Stalk Rot, and Goss’s Wilt tolerance"
+    ],
+    "characteristics": {
+      "Gdus to mid-pollination": "1285",
+      "Gdus to black layer": "2545",
+      "Relative maturity": "101",
+      "Variety": "01095468",
+      "Kernel row": "16"
+    },
+    "agronomics": {
+      "Seedling growth": 2,
+      "Emergence": 3,
+      "Root strength": 3,
+      "Stalk strength": 3,
+      "Drought tolerance": 3,
+      "Greensnap tolerance": 3,
+      "Staygreen": 3,
+      "Harvest appearance": 3,
+      "Drydown": 3,
+      "Test weight": 4
+    },
+    "diseaseTolerance": {
+      "Gray leaf spot": 5,
+      "Common rust": 3,
+      "": 4,
+      "Goss's wilt": 4,
+      "blight - race": 1
+    },
+    "herbicide": {
+      "Growth regulators": "sensitivityA",
+      "Isoxazoles sensitivity -": "preemergenceA",
+      "Sulfonylureas": "sensitivityA"
+    }
+  },
+  "DKC101-35RIB": {
+    "name": "DKC101-35RIB",
+    "crop": "Corn",
+    "maturity": "101",
+    "trait": "VT2PRIB",
+    "strengthAndManagement": [
+      "Has displayed outstanding yield potential and stable performance across environments",
+      "Has demonstrated good emergence and excellent early growth",
+      "Strong disease tolerance to Northern Corn Leaf Blight and Anthracnose Stalk Rot"
+    ],
+    "characteristics": {
+      "Gdus to mid-pollination": "1285",
+      "Gdus to black layer": "2545",
+      "Relative maturity": "101",
+      "Variety": "01095467",
+      "Kernel row": "16"
+    },
+    "agronomics": {
+      "Seedling growth": 2,
+      "Emergence": 3,
+      "Root strength": 3,
+      "Stalk strength": 3,
+      "Drought tolerance": 3,
+      "Greensnap tolerance": 4,
+      "Staygreen": 3,
+      "Harvest appearance": 3,
+      "Drydown": 3,
+      "Test weight": 4
+    },
+    "diseaseTolerance": {
+      "Gray leaf spot": 6,
+      "Common rust": 3,
+      "": 4,
+      "Goss's wilt": 5,
+      "blight - race": 1
+    },
+    "herbicide": {
+      "Growth regulators": "sensitivityA",
+      "Isoxazoles sensitivity -": "preemergenceA",
+      "Sulfonylureas": "sensitivityA"
+    }
+  },
+  "DKC102-13RIB": {
+    "name": "DKC102-13RIB",
+    "crop": "Corn",
+    "maturity": "102",
+    "trait": "VT4PRIB",
+    "strengthAndManagement": [
+      "Excellent emergence and seedling vigor enabling wide planting window",
+      "Very good Northern Corn Leaf Blight and Anthracnose Stalk Rot disease tolerance package",
+      "Has shown solid root and stalk strength"
+    ],
+    "characteristics": {
+      "Gdus to mid-pollination": "1285",
+      "Gdus to black layer": "2560",
+      "Relative maturity": "102",
+      "Variety": "01102540",
+      "Kernel row": "18"
+    },
+    "agronomics": {
+      "Seedling growth": 2,
+      "Emergence": 2,
+      "Root strength": 3,
+      "Stalk strength": 3,
+      "Drought tolerance": 3,
+      "Greensnap tolerance": 3,
+      "Staygreen": 3,
+      "Harvest appearance": 2,
+      "Drydown": 3,
+      "Test weight": 4
+    },
+    "diseaseTolerance": {
+      "Gray leaf spot": 5,
+      "Common rust": 3,
+      "": 4,
+      "Goss's wilt": 5,
+      "Eye spot": 3,
+      "blight - race": 1
+    },
+    "herbicide": {
+      "Growth regulators": "sensitivityA",
+      "Isoxazoles sensitivity -": "preemergenceA",
+      "Sulfonylureas": "sensitivityA"
+    }
+  },
+  "DKC102-28RIB": {
+    "name": "DKC102-28RIB",
+    "crop": "Corn",
+    "maturity": "102",
+    "trait": "TRERIB",
+    "strengthAndManagement": [
+      "Very strong agronomic package including root and stalk strength and solid greensnap tolerance",
+      "Excellent late season appearance with ear commonly filled to tip; plant at medium high populations to maximize the",
+      "Has shown very strong emergence with average seedling vigor"
+    ],
+    "characteristics": {
+      "Gdus to mid-pollination": "1280",
+      "Gdus to black layer": "2560",
+      "Relative maturity": "102",
+      "Variety": "01096681",
+      "Kernel row": "16"
+    },
+    "agronomics": {
+      "Seedling growth": 3,
+      "Emergence": 2,
+      "Root strength": 3,
+      "Stalk strength": 2,
+      "Drought tolerance": 2,
+      "Greensnap tolerance": 3,
+      "Staygreen": 3,
+      "Harvest appearance": 2,
+      "Drydown": 3,
+      "Test weight": 3
+    },
+    "diseaseTolerance": {
+      "Gray leaf spot": 5,
+      "Common rust": 3,
+      "": 4,
+      "Goss's wilt": 5,
+      "Eye spot": 3,
+      "blight - race": 1
+    },
+    "herbicide": {
+      "Growth regulators": "sensitivityA",
+      "Isoxazoles sensitivity -": "preemergenceA",
+      "Sulfonylureas": "sensitivityA"
+    }
+  },
+  "DKC103-07RIB": {
+    "name": "DKC103-07RIB",
+    "crop": "Corn",
+    "maturity": "103",
+    "trait": "TRERIB",
+    "strengthAndManagement": [
+      "Has shown very strong emergence and solid seedling vigor",
+      "Target medium to medium low populations for best performance with this girthy, deep kerneled, flex ear type",
+      "Can provide very nice grain quality and test weight"
+    ],
+    "characteristics": {
+      "Gdus to mid-pollination": "1310",
+      "Gdus to black layer": "2575",
+      "Relative maturity": "103",
+      "Variety": "01096742",
+      "Kernel row": "18"
+    },
+    "agronomics": {
+      "Seedling growth": 4,
+      "Emergence": 3,
+      "Root strength": 2,
+      "Stalk strength": 3,
+      "Drought tolerance": 3,
+      "Greensnap tolerance": 3,
+      "Staygreen": 4,
+      "Harvest appearance": 3,
+      "Drydown": 2,
+      "Test weight": 2,
+      "Page 1 of": 3
+    },
+    "diseaseTolerance": {
+      "Gray leaf spot": 4,
+      "Common rust": 3,
+      "Southern rust": 4,
+      "": 4,
+      "Goss's wilt": 4,
+      "Eye spot": 3,
+      "blight - race": 1
+    },
+    "herbicide": {
+      "Growth regulators": "sensitivityA",
+      "Isoxazoles sensitivity -": "preemergenceA",
+      "Sulfonylureas": "sensitivityA"
+    }
+  },
+  "DKC103-47RIB": {
+    "name": "DKC103-47RIB",
+    "crop": "Corn",
+    "maturity": "103",
+    "trait": "SSPRIB",
+    "strengthAndManagement": [
+      "Outstanding agronomics including stalk strength, root strength, and greensnap tolerance",
+      "Very strong disease tolerance profile including tolerance to Northern Corn Leaf Blight, Goss’s Wilt, Gray Leaf Spot, and",
+      "Can provide very nice grain quality and test weight"
+    ],
+    "characteristics": {
+      "Gdus to mid-pollination": "1310",
+      "Gdus to black layer": "2575",
+      "Relative maturity": "103",
+      "Variety": "01096315",
+      "Kernel row": "18"
+    },
+    "agronomics": {
+      "Seedling growth": 4,
+      "Emergence": 2,
+      "Root strength": 2,
+      "Stalk strength": 2,
+      "Drought tolerance": 3,
+      "Greensnap tolerance": 2,
+      "Staygreen": 3,
+      "Harvest appearance": 3,
+      "Drydown": 3,
+      "Test weight": 3,
+      "Page 1 of": 3
+    },
+    "diseaseTolerance": {
+      "Gray leaf spot": 4,
+      "Common rust": 3,
+      "Southern rust": 3,
+      "": 4,
+      "Goss's wilt": 4,
+      "Eye spot": 3,
+      "blight - race": 1
+    },
+    "herbicide": {
+      "Growth regulators": "sensitivityA",
+      "Isoxazoles sensitivity -": "preemergenceA",
+      "Sulfonylureas": "sensitivityA"
+    }
+  },
+  "DKC104-08RIB": {
+    "name": "DKC104-08RIB",
+    "crop": "Corn",
+    "maturity": "104",
+    "trait": "VT4PRIB",
+    "strengthAndManagement": [
+      "Product has shown impressive yield potential and broad adaptation across yield environments",
+      "Strong greensnap tolerance, Goss’ Wilt tolerance, and average pH tolerance enables a western fit",
+      "Has showcased a girthy, semi-flex ear type with medium populations recommended"
+    ],
+    "characteristics": {
+      "Gdus to mid-pollination": "1286",
+      "Gdus to black layer": "2600",
+      "Relative maturity": "104",
+      "Variety": "01104559",
+      "Kernel row": "18"
+    },
+    "agronomics": {
+      "Seedling growth": 2,
+      "Emergence": 3,
+      "Root strength": 3,
+      "Stalk strength": 3,
+      "Drought tolerance": 3,
+      "Greensnap tolerance": 2,
+      "Staygreen": 3,
+      "Harvest appearance": 3,
+      "Drydown": 3,
+      "Test weight": 4
+    },
+    "diseaseTolerance": {
+      "Gray leaf spot": 5,
+      "Common rust": 3,
+      "": 4,
+      "Goss's wilt": 4,
+      "Eye spot": 3,
+      "blight - race": 1
+    },
+    "herbicide": {
+      "Growth regulators": "sensitivityA",
+      "Isoxazoles sensitivity -": "preemergenceA",
+      "Sulfonylureas": "sensitivityA"
+    }
+  },
+  "DKC104-14RIB": {
+    "name": "DKC104-14RIB",
+    "crop": "Corn",
+    "maturity": "104",
+    "trait": "SSPRIB",
+    "strengthAndManagement": [
+      "Has displayed outstanding yield potential with stable performance across yield environments",
+      "Excellent emergence and strong vigor provide planting window options",
+      "Solid root strength and stalk strength enables normal to late harvest options; medium populations recommended"
+    ],
+    "characteristics": {
+      "Gdus to mid-pollination": "1286",
+      "Gdus to black layer": "2600",
+      "Relative maturity": "104",
+      "Variety": "01104406",
+      "Kernel row": "18"
+    },
+    "agronomics": {
+      "Seedling growth": 3,
+      "Emergence": 2,
+      "Root strength": 2,
+      "Stalk strength": 3,
+      "Drought tolerance": 3,
+      "Greensnap tolerance": 2,
+      "Staygreen": 3,
+      "Harvest appearance": 2,
+      "Drydown": 3,
+      "Test weight": 4
+    },
+    "diseaseTolerance": {
+      "Gray leaf spot": 5,
+      "Common rust": 3,
+      "": 4,
+      "Goss's wilt": 4,
+      "Eye spot": 3,
+      "blight - race": 1
+    },
+    "herbicide": {
+      "Growth regulators": "sensitivityA",
+      "Isoxazoles sensitivity -": "preemergenceA",
+      "Sulfonylureas": "sensitivityA"
+    }
+  },
+  "DKC105-33RIB": {
+    "name": "DKC105-33RIB",
+    "crop": "Corn",
+    "maturity": "105",
+    "trait": "SSPRIB",
+    "strengthAndManagement": [
+      "Product has shown impressive yield potential and broad adaptation across yield environments with potential movement",
+      "Robust plant type features excellent staygreen and a favorable harvest appearance",
+      "Excellent husk cover on a semi-fixed ear type"
+    ],
+    "characteristics": {
+      "Gdus to mid-pollination": "1305",
+      "Gdus to black layer": "2605",
+      "Relative maturity": "105",
+      "Variety": "01090140",
+      "Kernel row": "18"
+    },
+    "agronomics": {
+      "Seedling growth": 2,
+      "Emergence": 2,
+      "Root strength": 4,
+      "Stalk strength": 3,
+      "Drought tolerance": 2,
+      "Greensnap tolerance": 3,
+      "Staygreen": 1,
+      "Harvest appearance": 1,
+      "Drydown": 3,
+      "Test weight": 4
+    },
+    "diseaseTolerance": {
+      "Gray leaf spot": 5,
+      "Common rust": 3,
+      "Southern rust": 6,
+      "": 4,
+      "Goss's wilt": 4,
+      "blight - race": 1
+    },
+    "herbicide": {
+      "Growth regulators": "sensitivityC",
+      "Isoxazoles sensitivity -": "preemergenceA",
+      "Sulfonylureas": "sensitivityA"
+    }
+  },
+  "DKC105-35RIB": {
+    "name": "DKC105-35RIB",
+    "crop": "Corn",
+    "maturity": "105",
+    "trait": "VT2PRIB",
+    "strengthAndManagement": [
+      "Product has shown impressive yield potential and broad adaptation across yield environments with potential movement",
+      "Robust plant type features excellent staygreen and a favorable harvest appearance",
+      "Excellent husk cover on a semi-fixed ear type"
+    ],
+    "characteristics": {
+      "Gdus to mid-pollination": "1305",
+      "Gdus to black layer": "2605",
+      "Relative maturity": "105",
+      "Variety": "01091224",
+      "Kernel row": "18"
+    },
+    "agronomics": {
+      "Seedling growth": 2,
+      "Emergence": 2,
+      "Root strength": 4,
+      "Stalk strength": 3,
+      "Drought tolerance": 2,
+      "Greensnap tolerance": 3,
+      "Staygreen": 1,
+      "Harvest appearance": 1,
+      "Drydown": 3,
+      "Test weight": 4
+    },
+    "diseaseTolerance": {
+      "Gray leaf spot": 5,
+      "Common rust": 3,
+      "Southern rust": 6,
+      "": 4,
+      "Goss's wilt": 4,
+      "blight - race": 1
+    },
+    "herbicide": {
+      "Growth regulators": "sensitivityC",
+      "Isoxazoles sensitivity -": "preemergenceA",
+      "Sulfonylureas": "sensitivityA"
+    }
+  },
+  "DKC106-98RIB": {
+    "name": "DKC106-98RIB",
+    "crop": "Corn",
+    "maturity": "106",
+    "trait": "VT4PRIB",
+    "strengthAndManagement": [
+      "Impressive yield performance potential with outstanding stress tolerance with potential for southern movement",
+      "Nice balanced plant stature with medium plant and ear height with semi-flex ear type with excellent test weight",
+      "Strong fungal disease tolerance package including Northern Corn Leaf Blight, Gray Leaf Spot, and Southern Rust"
+    ],
+    "characteristics": {
+      "Gdus to mid-pollination": "1320",
+      "Gdus to black layer": "2655",
+      "Relative maturity": "106",
+      "Variety": "01102551",
+      "Kernel row": "16"
+    },
+    "agronomics": {
+      "Seedling growth": 3,
+      "Emergence": 3,
+      "Root strength": 2,
+      "Stalk strength": 3,
+      "Drought tolerance": 2,
+      "Greensnap tolerance": 2,
+      "Staygreen": 3,
+      "Harvest appearance": 3,
+      "Drydown": 3,
+      "Test weight": 2,
+      "Page 1 of": 3
+    },
+    "diseaseTolerance": {
+      "Gray leaf spot": 4,
+      "Common rust": 3,
+      "Southern rust": 4,
+      "": 4,
+      "Goss's wilt": 5,
+      "Eye spot": 3,
+      "blight - race": 1
+    },
+    "herbicide": {
+      "Growth regulators": "sensitivityA",
+      "Isoxazoles sensitivity -": "preemergenceA",
+      "Sulfonylureas": "sensitivityA"
+    }
+  },
+  "DKC107-33RIB": {
+    "name": "DKC107-33RIB",
+    "crop": "Corn",
+    "maturity": "107",
+    "trait": "SSPRIB",
+    "strengthAndManagement": [
+      "Has displayed strong yield potential across most yield levels",
+      "Product has shown excellent yield to moisture ratio with ability to perform south of zone",
+      "Excellent agronomic package combines solid root strength, stalk strength and greensnap tolerance"
+    ],
+    "characteristics": {
+      "Gdus to mid-pollination": "1315",
+      "Gdus to black layer": "2695",
+      "Relative maturity": "107",
+      "Variety": "01086457",
+      "Kernel row": "16"
+    },
+    "agronomics": {
+      "Seedling growth": 3,
+      "Emergence": 2,
+      "Root strength": 2,
+      "Stalk strength": 3,
+      "Drought tolerance": 3,
+      "Greensnap tolerance": 2,
+      "Staygreen": 4,
+      "Harvest appearance": 4,
+      "Drydown": 3,
+      "Test weight": 4
+    },
+    "diseaseTolerance": {
+      "Gray leaf spot": 4,
+      "Common rust": 3,
+      "Southern rust": 6,
+      "": 4,
+      "Goss's wilt": 4,
+      "blight - race": 1
+    },
+    "herbicide": {
+      "Growth regulators": "sensitivityA",
+      "Isoxazoles sensitivity -": "preemergenceA",
+      "Sulfonylureas": "sensitivityA"
+    }
+  },
+  "DKC108-17RIB": {
+    "name": "DKC108-17RIB",
+    "crop": "Corn",
+    "maturity": "108",
+    "trait": "TRERIB",
+    "strengthAndManagement": [
+      "Product has shown outstanding yield potential with versatile broad acre placement",
+      "Tall, robust plant stature with solid root strength and stalk strength with late season standability",
+      "A potential fit with a western profile including very good greensnap tolerance, excellent Goss’s Wilt tolerance, above average"
+    ],
+    "characteristics": {
+      "Gdus to mid-pollination": "1320",
+      "Gdus to black layer": "2729",
+      "Relative maturity": "107",
+      "Variety": "01104921",
+      "Kernel row": "16"
+    },
+    "agronomics": {
+      "Seedling growth": 2,
+      "Emergence": 2,
+      "Root strength": 2,
+      "Stalk strength": 2,
+      "Drought tolerance": 2,
+      "Greensnap tolerance": 2,
+      "Staygreen": 3,
+      "Harvest appearance": 3,
+      "Drydown": 3,
+      "Test weight": 5
+    },
+    "diseaseTolerance": {
+      "Gray leaf spot": 5,
+      "Southern rust": 6,
+      "": 5,
+      "Goss's wilt": 3,
+      "blight - race": 1
+    },
+    "herbicide": {
+      "Growth regulators": "sensitivityA",
+      "Isoxazoles sensitivity -": "preemergenceA",
+      "Sulfonylureas": "sensitivityA"
+    }
+  },
+  "DKC108-64RIB": {
+    "name": "DKC108-64RIB",
+    "crop": "Corn",
+    "maturity": "108",
+    "trait": "SSPRIB",
+    "strengthAndManagement": [
+      "Incredible yield performance potential with strong agronomics and broad acre fit",
+      "Semi-flex ear type with potential to respond favorably at medium populations",
+      "Manage as an early harvest type of product for best product utilization"
+    ],
+    "characteristics": {
+      "Gdus to mid-pollination": "1320",
+      "Gdus to black layer": "2710",
+      "Relative maturity": "108",
+      "Variety": "01096394",
+      "Kernel row": "16"
+    },
+    "agronomics": {
+      "Seedling growth": 2,
+      "Emergence": 2,
+      "Root strength": 2,
+      "Stalk strength": 2,
+      "Drought tolerance": 2,
+      "Greensnap tolerance": 2,
+      "Staygreen": 4,
+      "Harvest appearance": 4,
+      "Drydown": 2,
+      "Test weight": 4,
+      "Page 1 of": 3
+    },
+    "diseaseTolerance": {
+      "Gray leaf spot": 4,
+      "Common rust": 3,
+      "Southern rust": 5,
+      "": 4,
+      "Goss's wilt": 4,
+      "Eye spot": 3,
+      "blight - race": 1
+    },
+    "herbicide": {
+      "Growth regulators": "sensitivityA",
+      "Isoxazoles sensitivity -": "preemergenceA",
+      "Sulfonylureas": "sensitivityA"
+    }
+  },
+  "DKC110-10": {
+    "name": "DKC110-10",
+    "crop": "Corn",
+    "maturity": "110",
+    "trait": "SS",
+    "strengthAndManagement": [
+      "Broadly adapted product with excellent yield potential and agronomic package",
+      "Attractive late season appearance with strong staygreen",
+      "Excellent root and stalk strength with solid greensnap tolerance"
+    ],
+    "characteristics": {
+      "Gdus to mid-pollination": "1330",
+      "Gdus to black layer": "2750",
+      "Relative maturity": "110",
+      "Variety": "01096400",
+      "Kernel row": "16"
+    },
+    "agronomics": {
+      "Seedling growth": 3,
+      "Emergence": 2,
+      "Root strength": 2,
+      "Stalk strength": 2,
+      "Drought tolerance": 2,
+      "Greensnap tolerance": 3,
+      "Staygreen": 3,
+      "Harvest appearance": 3,
+      "Drydown": 4,
+      "Test weight": 2,
+      "Page 1 of": 3,
+      "DKC110-": 10
+    },
+    "diseaseTolerance": {
+      "Gray leaf spot": 4,
+      "Common rust": 3,
+      "Southern rust": 6,
+      "": 5,
+      "Goss's wilt": 4,
+      "Eye spot": 3,
+      "blight - race": 1
+    },
+    "herbicide": {
+      "Growth regulators": "sensitivityA",
+      "Isoxazoles sensitivity -": "preemergenceA",
+      "Sulfonylureas": "sensitivityA"
+    }
+  },
+  "DKC110-10RIB": {
+    "name": "DKC110-10RIB",
+    "crop": "Corn",
+    "maturity": "110",
+    "trait": "SSRIB",
+    "strengthAndManagement": [
+      "Broadly adapted product with excellent yield potential and agronomic package",
+      "Attractive late season appearance with strong staygreen",
+      "Excellent root and stalk strength with solid greensnap tolerance"
+    ],
+    "characteristics": {
+      "Gdus to mid-pollination": "1330",
+      "Gdus to black layer": "2750",
+      "Relative maturity": "110",
+      "Variety": "01096400",
+      "Kernel row": "16"
+    },
+    "agronomics": {
+      "Seedling growth": 3,
+      "Emergence": 2,
+      "Root strength": 2,
+      "Stalk strength": 2,
+      "Drought tolerance": 2,
+      "Greensnap tolerance": 3,
+      "Staygreen": 3,
+      "Harvest appearance": 3,
+      "Drydown": 4,
+      "Test weight": 2,
+      "Page 1 of": 3
+    },
+    "diseaseTolerance": {
+      "Gray leaf spot": 4,
+      "Common rust": 3,
+      "Southern rust": 6,
+      "": 5,
+      "Goss's wilt": 4,
+      "Eye spot": 3,
+      "blight - race": 1
+    },
+    "herbicide": {
+      "Growth regulators": "sensitivityA",
+      "Isoxazoles sensitivity -": "preemergenceA",
+      "Sulfonylureas": "sensitivityA"
+    }
+  },
+  "DKC110-41": {
+    "name": "DKC110-41",
+    "crop": "Corn",
+    "maturity": "110",
+    "trait": "TRE",
+    "strengthAndManagement": [
+      "Medium plant height with medium high ear height features a semi determinant ear style",
+      "Strong disease tolerance package including Northern Corn Leaf Blight, Goss’s Wilt, Gray Leaf Spot, and Anthracnose Stalk",
+      "Has shown average emergence with very strong seedling vigor potential"
+    ],
+    "characteristics": {
+      "Gdus to mid-pollination": "1335",
+      "Gdus to black layer": "2750",
+      "Relative maturity": "110",
+      "Variety": "01096876",
+      "Kernel row": "16"
+    },
+    "agronomics": {
+      "Seedling growth": 2,
+      "Emergence": 3,
+      "Root strength": 3,
+      "Stalk strength": 3,
+      "Drought tolerance": 3,
+      "Greensnap tolerance": 3,
+      "Staygreen": 3,
+      "Harvest appearance": 3,
+      "Drydown": 3,
+      "Test weight": 4,
+      "Page 1 of": 3,
+      "DKC110-": 41
+    },
+    "diseaseTolerance": {
+      "Gray leaf spot": 4,
+      "Common rust": 3,
+      "Southern rust": 5,
+      "": 3,
+      "Goss's wilt": 3,
+      "Eye spot": 3,
+      "blight - race": 1
+    },
+    "herbicide": {
+      "Growth regulators": "sensitivityC",
+      "Isoxazoles sensitivity -": "preemergenceA",
+      "Sulfonylureas": "sensitivityA"
+    }
+  },
+  "DKC110-41RIB": {
+    "name": "DKC110-41RIB",
+    "crop": "",
+    "maturity": "",
+    "trait": "",
+    "strengthAndManagement": [
+      "Medium plant height with medium high ear height features a semi determinant ear style",
+      "Strong disease tolerance package including Norther n Cor n Leaf Blight, Goss’s W ilt, Gray Leaf Spot, and Anthracnose Stalk",
+      "Has shown average emergence with very strong seedling vigor potential"
+    ],
+    "characteristics": {
+      "Gdus to mid-pollination": "1335",
+      "Gdus to black layer": "2750",
+      "Relative maturity": "110",
+      "Variety": "01096876",
+      "Kernel row": "16"
+    },
+    "agronomics": {
+      "Seedling growth": 2,
+      "Emergence": 3,
+      "Root strength": 3,
+      "Stalk strength": 3,
+      "Drought tolerance": 3,
+      "Greensnap tolerance": 3,
+      "Staygreen": 3,
+      "Harvest appearance": 3,
+      "Drydown": 3,
+      "Test weight": 4,
+      "Page 1 of": 3
+    },
+    "diseaseTolerance": {
+      "Gray leaf spot": 4,
+      "Common rust": 3,
+      "Southern rust": 5,
+      "": 3,
+      "Goss's wilt": 3,
+      "Eye spot": 3,
+      "blight - race": 1
+    },
+    "herbicide": {
+      "Growth regulators": "sensitivityC",
+      "Isoxazoles sensitivity -": "preemergenceA",
+      "Sulfonylureas": "sensitivityA"
+    }
+  },
+  "DKC111-30": {
+    "name": "DKC111-30",
+    "crop": "",
+    "maturity": "",
+    "trait": "",
+    "strengthAndManagement": [
+      "B ro a d l y   a d a p t e d   p ro d u c t   t h a t   h a s   s h o w n   h i g h   y i e l d   p o t e n t i a l   w i t h   m o v e m e n t   n o r t h   a n d   s o u t h   o f   z o n e",
+      "A t t r a c t i v e ,   m e d i u m - t a l l   s t a t u re d   p l a n t   f e a t u re s   a   s e m i - fl e x   e a r   t y p e   w i t h   e x c e l l e n t   t e s t   w e i g h t   a n d   g o o d   t i p   fi l l",
+      "M e d i u m - h i g h   p l a n t   p o p u l a t i o n s   a re   re c o m m e n d e d   f o r   b e s t   re s u l t s"
+    ],
+    "characteristics": {
+      "Gdus to mid-pollination": "1335",
+      "Gdus to black layer": "2800",
+      "Relative maturity": "111",
+      "Variety": "01089331",
+      "Kernel row": "16"
+    },
+    "agronomics": {
+      "Seedling growth": 3,
+      "Emergence": 3,
+      "Root strength": 2,
+      "Stalk strength": 3,
+      "Drought tolerance": 2,
+      "Greensnap tolerance": 4,
+      "Staygreen": 3,
+      "Harvest appearance": 3,
+      "Drydown": 3,
+      "Test weight": 1,
+      "P a g e   1   o f": 3,
+      "DKC111-": 30
+    },
+    "diseaseTolerance": {
+      "Gray leaf spot": 4,
+      "Common rust": 3,
+      "Southern rust": 2,
+      "": 4,
+      "Goss's wilt": 4,
+      "blight - race": 1
+    },
+    "herbicide": {
+      "Growth regulators": "sensitivityA",
+      "Isoxazoles sensitivity -": "preemergenceA",
+      "Sulfonylureas": "sensitivityA"
+    }
+  },
+  "DKC111-33RIB": {
+    "name": "DKC111-33RIB",
+    "crop": "Corn",
+    "maturity": "111",
+    "trait": "SSPRIB",
+    "strengthAndManagement": [
+      "Broadly adapted product that has shown high yield potential with movement north and south of zone",
+      "Attractive, medium-tall statured plant features a semi-flex ear type with excellent test weight and good tip fill",
+      "Medium-high plant populations are recommended for best results"
+    ],
+    "characteristics": {
+      "Gdus to mid-pollination": "1335",
+      "Gdus to black layer": "2800",
+      "Relative maturity": "111",
+      "Variety": "01091047",
+      "Kernel row": "16"
+    },
+    "agronomics": {
+      "Seedling growth": 3,
+      "Emergence": 3,
+      "Root strength": 2,
+      "Stalk strength": 3,
+      "Drought tolerance": 2,
+      "Greensnap tolerance": 4,
+      "Staygreen": 3,
+      "Harvest appearance": 3,
+      "Drydown": 3,
+      "Test weight": 1,
+      "Page 1 of": 3
+    },
+    "diseaseTolerance": {
+      "Gray leaf spot": 4,
+      "Common rust": 3,
+      "Southern rust": 2,
+      "": 5,
+      "Goss's wilt": 4,
+      "blight - race": 1
+    },
+    "herbicide": {
+      "Growth regulators": "sensitivityA",
+      "Isoxazoles sensitivity -": "preemergenceA",
+      "Sulfonylureas": "sensitivityA"
+    }
+  },
+  "DKC111-35RIB": {
+    "name": "DKC111-35RIB",
+    "crop": "",
+    "maturity": "",
+    "trait": "",
+    "strengthAndManagement": [
+      "B ro a d l y   a d a p t e d   p ro d u c t   t h a t   h a s   s h o w n   h i g h   y i e l d   p o t e n t i a l   w i t h   m o v e m e n t   n o r t h   a n d   s o u t h   o f   z o n e",
+      "A t t r a c t i v e ,   m e d i u m - t a l l   s t a t u re d   p l a n t   f e a t u re s   a   s e m i - fl e x   e a r   t y p e   w i t h   e x c e l l e n t   t e s t   w e i g h t   a n d   g o o d   t i p   fi l l",
+      "M e d i u m - h i g h   p l a n t   p o p u l a t i o n s   a re   re c o m m e n d e d   f o r   b e s t   re s u l t s"
+    ],
+    "characteristics": {
+      "Gdus to mid-pollination": "1335",
+      "Gdus to black layer": "2800",
+      "Relative maturity": "111",
+      "Variety": "01091302",
+      "Kernel row": "16"
+    },
+    "agronomics": {
+      "Seedling growth": 3,
+      "Emergence": 3,
+      "Root strength": 2,
+      "Stalk strength": 3,
+      "Drought tolerance": 2,
+      "Greensnap tolerance": 4,
+      "Staygreen": 3,
+      "Harvest appearance": 3,
+      "Drydown": 3,
+      "Test weight": 1,
+      "P a g e   1   o f": 3
+    },
+    "diseaseTolerance": {
+      "Gray leaf spot": 4,
+      "Common rust": 3,
+      "Southern rust": 2,
+      "": 4,
+      "Goss's wilt": 4,
+      "blight - race": 1
+    },
+    "herbicide": {
+      "Growth regulators": "sensitivityA",
+      "Isoxazoles sensitivity -": "preemergenceA",
+      "Sulfonylureas": "sensitivityA"
+    }
+  },
+  "DKC112-12RIB": {
+    "name": "DKC112-12RIB",
+    "crop": "",
+    "maturity": "",
+    "trait": "",
+    "strengthAndManagement": [
+      "S t ro n g   e m e r g e n c e   s u p p o r t s   e a r l y   p l a n t i n g   a n d   e x c e l l e n t   s t a l k   s t re n g t h   e n a b l e s   fl e x i b l e   h a r v e s t   t i m i n g",
+      "S h a r p   l o o k i n g   p l a n t   i n   t h e   fi e l d   w i t h   a b o v e   a v e r a g e   t e s t   w e i g h t   w i t h   s m a l l   n o s e   o n   t h e   e a r   a n d   g o o d   h u s k   c o v e r a g e",
+      "S e m i - fl e x   e a r   t y p e   t h a t   h a s   s h o w n   g o o d   p e r f o r m a n c e   a t   m e d i u m   t o   m e d i u m   l o w   p o p u l a t i o n s"
+    ],
+    "characteristics": {
+      "Gdus to mid-pollination": "1340",
+      "Gdus to black layer": "2835",
+      "Relative maturity": "112",
+      "Variety": "01104975",
+      "Kernel row": "16"
+    },
+    "agronomics": {
+      "Seedling growth": 3,
+      "Emergence": 2,
+      "Root strength": 3,
+      "Stalk strength": 2,
+      "Drought tolerance": 3,
+      "Greensnap tolerance": 3,
+      "Staygreen": 2,
+      "Harvest appearance": 2,
+      "Drydown": 2,
+      "Test weight": 2,
+      "P a g e   1   o f": 3
+    },
+    "diseaseTolerance": {
+      "Gray leaf spot": 4,
+      "Common rust": 3,
+      "Southern rust": 5,
+      "": 5,
+      "Goss's wilt": 4,
+      "Eye spot": 3,
+      "blight - race": 1
+    },
+    "herbicide": {
+      "Growth regulators": "sensitivityA",
+      "Isoxazoles sensitivity -": "preemergenceA",
+      "Sulfonylureas": "sensitivityA"
+    }
+  },
+  "DKC112-29RIB": {
+    "name": "DKC112-29RIB",
+    "crop": "Corn",
+    "maturity": "112",
+    "trait": "SSPRIB",
+    "strengthAndManagement": [
+      "Strong emergence supports early planting and excellent stalk strength enables flexible harvest timing",
+      "Attractive harvest appearance with strong staygreen",
+      "Great disease tolerance profile and has shown above average tar spot tolerance"
+    ],
+    "characteristics": {
+      "Gdus to mid-pollination": "1360",
+      "Gdus to black layer": "2840",
+      "Relative maturity": "111",
+      "Variety": "01109781",
+      "Kernel row": "18"
+    },
+    "agronomics": {
+      "Seedling growth": 3,
+      "Emergence": 3,
+      "Root strength": 2,
+      "Stalk strength": 2,
+      "Drought tolerance": 2,
+      "Greensnap tolerance": 3,
+      "Staygreen": 2,
+      "Harvest appearance": 2,
+      "Drydown": 3,
+      "Test weight": 5,
+      "Page 1 of": 3
+    },
+    "diseaseTolerance": {
+      "Gray leaf spot": 4,
+      "Common rust": 3,
+      "Southern rust": 5,
+      "": 3,
+      "Goss's wilt": 3,
+      "Eye spot": 3,
+      "blight - race": 1
+    },
+    "herbicide": {
+      "Growth regulators": "sensitivityA",
+      "Isoxazoles sensitivity -": "preemergenceA",
+      "Sulfonylureas": "sensitivityA"
+    }
+  },
+  "DKC113-83": {
+    "name": "DKC113-83",
+    "crop": "Corn",
+    "maturity": "113",
+    "trait": "TRE",
+    "strengthAndManagement": [
+      "Has demonstrated strong root and stalk strength, and greensnap tolerance",
+      "Medium tall plant height and medium high ear height features a semi flex ear with above average test weight",
+      "Broadly adapted product with strong heat stress tolerance potential"
+    ],
+    "characteristics": {
+      "Gdus to mid-pollination": "1330",
+      "Gdus to black layer": "2830",
+      "Relative maturity": "113",
+      "Variety": "01096880",
+      "Kernel row": "18"
+    },
+    "agronomics": {
+      "Seedling growth": 3,
+      "Emergence": 3,
+      "Root strength": 3,
+      "Stalk strength": 4,
+      "Drought tolerance": 3,
+      "Greensnap tolerance": 3,
+      "Staygreen": 3,
+      "Harvest appearance": 3,
+      "Drydown": 2,
+      "Test weight": 2,
+      "Page 1 of": 3,
+      "DKC113-": 83
+    },
+    "diseaseTolerance": {
+      "Gray leaf spot": 5,
+      "Common rust": 3,
+      "Southern rust": 3,
+      "": 4,
+      "Goss's wilt": 4,
+      "Eye spot": 4,
+      "blight - race": 1
+    },
+    "herbicide": {
+      "Growth regulators": "sensitivityA",
+      "Isoxazoles sensitivity -": "preemergenceA",
+      "Sulfonylureas": "sensitivityA"
+    }
+  },
+  "DKC113-83RIB": {
+    "name": "DKC113-83RIB",
+    "crop": "Corn",
+    "maturity": "113",
+    "trait": "TRERIB",
+    "strengthAndManagement": [
+      "Has demonstrated strong root and stalk strength, and greensnap tolerance",
+      "Medium tall plant height and medium high ear height features a semi flex ear with above average test weight",
+      "Broadly adapted product with strong heat stress tolerance potential"
+    ],
+    "characteristics": {
+      "Gdus to mid-pollination": "1330",
+      "Gdus to black layer": "2830",
+      "Relative maturity": "113",
+      "Variety": "01096880",
+      "Kernel row": "18"
+    },
+    "agronomics": {
+      "Seedling growth": 3,
+      "Emergence": 3,
+      "Root strength": 3,
+      "Stalk strength": 4,
+      "Drought tolerance": 3,
+      "Greensnap tolerance": 3,
+      "Staygreen": 3,
+      "Harvest appearance": 3,
+      "Drydown": 2,
+      "Test weight": 2,
+      "Page 1 of": 3
+    },
+    "diseaseTolerance": {
+      "Gray leaf spot": 5,
+      "Common rust": 3,
+      "Southern rust": 3,
+      "": 4,
+      "Goss's wilt": 4,
+      "Eye spot": 4,
+      "blight - race": 1
+    },
+    "herbicide": {
+      "Growth regulators": "sensitivityA",
+      "Isoxazoles sensitivity -": "preemergenceA",
+      "Sulfonylureas": "sensitivityA"
+    }
+  },
+  "DKC114-42RIB": {
+    "name": "DKC114-42RIB",
+    "crop": "",
+    "maturity": "",
+    "trait": "",
+    "strengthAndManagement": [
+      "B ro a d   a c re   p ro d u c t   b r i n g s   e x c e p t i o n a l   w e s t e r n   a d a p t a t i o n",
+      "H a s   s h o w n   f a n t a s t i c   g re e n s n a p   t o l e r a n c e ,   e x c e l l e n t   G o s s ’s   W i l t   t o l e r a n c e ,   a n d   a b o v e   a v e r a g e   p H   t o l e r a n c e",
+      "Ve r y   s t ro n g   p e r f o r m a n c e   u n d e r   l i m i t e d   a n d   f u l l   i r r i g a t i o n   m a n a g e m e n t   s c e n a r i o s"
+    ],
+    "characteristics": {
+      "Gdus to mid-pollination": "1360",
+      "Gdus to black layer": "2860",
+      "Relative maturity": "114",
+      "Variety": "01104471",
+      "Kernel row": "16"
+    },
+    "agronomics": {
+      "Seedling growth": 2,
+      "Emergence": 2,
+      "Root strength": 3,
+      "Stalk strength": 3,
+      "Drought tolerance": 2,
+      "Greensnap tolerance": 2,
+      "Staygreen": 3,
+      "Harvest appearance": 3,
+      "Drydown": 3,
+      "Test weight": 2,
+      "P a g e   1   o f": 3
+    },
+    "diseaseTolerance": {
+      "Gray leaf spot": 4,
+      "Common rust": 3,
+      "Southern rust": 6,
+      "": 5,
+      "Goss's wilt": 3,
+      "Eye spot": 3,
+      "blight - race": 1
+    },
+    "herbicide": {
+      "Growth regulators": "sensitivityA",
+      "Isoxazoles sensitivity -": "preemergenceA",
+      "Sulfonylureas": "sensitivityA"
+    }
+  },
+  "DKC114-43RIB": {
+    "name": "DKC114-43RIB",
+    "crop": "Corn",
+    "maturity": "114",
+    "trait": "VT2PRIB",
+    "strengthAndManagement": [
+      "Broad acre product brings exceptional western adaptation",
+      "Has shown fantastic greensnap tolerance, excellent Goss’s Wilt tolerance, and above average pH tolerance",
+      "Very strong performance under limited and full irrigation management scenarios"
+    ],
+    "characteristics": {
+      "Gdus to mid-pollination": "1360",
+      "Gdus to black layer": "2860",
+      "Relative maturity": "114",
+      "Variety": "01105185",
+      "Kernel row": "16"
+    },
+    "agronomics": {
+      "Seedling growth": 3,
+      "Emergence": 2,
+      "Root strength": 3,
+      "Stalk strength": 3,
+      "Drought tolerance": 3,
+      "Greensnap tolerance": 2,
+      "Staygreen": 3,
+      "Harvest appearance": 3,
+      "Drydown": 3,
+      "Test weight": 2,
+      "Page 1 of": 3
+    },
+    "diseaseTolerance": {
+      "Gray leaf spot": 4,
+      "Common rust": 3,
+      "Southern rust": 6,
+      "": 6,
+      "Goss's wilt": 3,
+      "Eye spot": 3,
+      "blight - race": 1
+    },
+    "herbicide": {
+      "Growth regulators": "sensitivityA",
+      "Isoxazoles sensitivity -": "preemergenceA",
+      "Sulfonylureas": "sensitivityA"
+    }
+  },
+  "DKC114-99": {
+    "name": "DKC114-99",
+    "crop": "Corn",
+    "maturity": "114",
+    "trait": "VT4P",
+    "strengthAndManagement": [
+      "Outstanding yield performance potential",
+      "Excellent test weight with a nice field appearance",
+      "Very strong foliar fungal disease tolerance package"
+    ],
+    "characteristics": {
+      "Gdus to mid-pollination": "1380",
+      "Gdus to black layer": "2845",
+      "Relative maturity": "114",
+      "Variety": "01102514",
+      "Kernel row": "16"
+    },
+    "agronomics": {
+      "Seedling growth": 3,
+      "Emergence": 3,
+      "Root strength": 2,
+      "Stalk strength": 3,
+      "Drought tolerance": 3,
+      "Greensnap tolerance": 3,
+      "Staygreen": 3,
+      "Harvest appearance": 3,
+      "Drydown": 4,
+      "Test weight": 2,
+      "Page 1 of": 3,
+      "DKC114-": 99
+    },
+    "diseaseTolerance": {
+      "Gray leaf spot": 4,
+      "Common rust": 3,
+      "Southern rust": 3,
+      "": 4,
+      "Goss's wilt": 5,
+      "Eye spot": 3,
+      "blight - race": 1
+    },
+    "herbicide": {
+      "Growth regulators": "sensitivityA",
+      "Isoxazoles sensitivity -": "preemergenceA",
+      "Sulfonylureas": "sensitivityA"
+    }
+  },
+  "DKC114-99RIB": {
+    "name": "DKC114-99RIB",
+    "crop": "Corn",
+    "maturity": "114",
+    "trait": "VT4PRIB",
+    "strengthAndManagement": [
+      "Outstanding yield performance potential",
+      "Excellent test weight with a nice field appearance",
+      "Very strong foliar fungal disease tolerance package"
+    ],
+    "characteristics": {
+      "Gdus to mid-pollination": "1380",
+      "Gdus to black layer": "2845",
+      "Relative maturity": "114",
+      "Variety": "01102514",
+      "Kernel row": "16"
+    },
+    "agronomics": {
+      "Seedling growth": 3,
+      "Emergence": 3,
+      "Root strength": 2,
+      "Stalk strength": 3,
+      "Drought tolerance": 3,
+      "Greensnap tolerance": 3,
+      "Staygreen": 3,
+      "Harvest appearance": 3,
+      "Drydown": 4,
+      "Test weight": 2,
+      "Page 1 of": 3
+    },
+    "diseaseTolerance": {
+      "Gray leaf spot": 4,
+      "Common rust": 3,
+      "Southern rust": 3,
+      "": 4,
+      "Goss's wilt": 5,
+      "Eye spot": 3,
+      "blight - race": 1
+    },
+    "herbicide": {
+      "Growth regulators": "sensitivityA",
+      "Isoxazoles sensitivity -": "preemergenceA",
+      "Sulfonylureas": "sensitivityA"
+    }
+  },
+  "DKC115-33RIB": {
+    "name": "DKC115-33RIB",
+    "crop": "Corn",
+    "maturity": "115",
+    "trait": "SSPRIB",
+    "strengthAndManagement": [
+      "Product has shown adaptability across soil types and productivity levels",
+      "Attractive plant type with a medium plant and ear height; excellent late season harvest appearance",
+      "Excellent root strength has been demonstrated by this product"
+    ],
+    "characteristics": {
+      "Gdus to mid-pollination": "1355",
+      "Gdus to black layer": "2880",
+      "Relative maturity": "115",
+      "Variety": "01091075",
+      "Kernel row": "18"
+    },
+    "agronomics": {
+      "Seedling growth": 3,
+      "Emergence": 3,
+      "Root strength": 1,
+      "Stalk strength": 3,
+      "Drought tolerance": 3,
+      "Greensnap tolerance": 3,
+      "Staygreen": 3,
+      "Harvest appearance": 3,
+      "Drydown": 2,
+      "Test weight": 3,
+      "Page 1 of": 3
+    },
+    "diseaseTolerance": {
+      "Gray leaf spot": 4,
+      "Common rust": 3,
+      "Southern rust": 5,
+      "": 4,
+      "Goss's wilt": 3,
+      "blight - race": 1
+    },
+    "herbicide": {
+      "Growth regulators": "sensitivityA",
+      "Isoxazoles sensitivity -": "preemergenceA",
+      "Sulfonylureas": "sensitivityA"
+    }
+  },
+  "DKC116-62": {
+    "name": "DKC116-62",
+    "crop": "Corn",
+    "maturity": "116",
+    "trait": "SSP",
+    "strengthAndManagement": [
+      "Strong agronomics including stalk strength and root strength",
+      "Attractive, robust plant type with wide leaves, good staygreen, and balanced stature",
+      "Very good greensnap tolerance, excellent Goss’s Wilt tolerance, and average pH tolerance for western placement"
+    ],
+    "characteristics": {
+      "Gdus to mid-pollination": "1380",
+      "Gdus to black layer": "2915",
+      "Relative maturity": "116",
+      "Variety": "01104490",
+      "Kernel row": "16"
+    },
+    "agronomics": {
+      "Seedling growth": 3,
+      "Emergence": 3,
+      "Root strength": 3,
+      "Stalk strength": 3,
+      "Drought tolerance": 3,
+      "Greensnap tolerance": 3,
+      "Staygreen": 2,
+      "Harvest appearance": 2,
+      "Drydown": 3,
+      "Test weight": 2,
+      "Page 1 of": 3,
+      "DKC116-": 62
+    },
+    "diseaseTolerance": {
+      "Gray leaf spot": 4,
+      "Common rust": 3,
+      "Southern rust": 4,
+      "": 4,
+      "Goss's wilt": 3,
+      "Eye spot": 3,
+      "blight - race": 1
+    },
+    "herbicide": {
+      "Growth regulators": "sensitivityA",
+      "Isoxazoles sensitivity -": "preemergenceA",
+      "Sulfonylureas": "sensitivityA"
+    }
+  },
+  "DKC116-62RIB": {
+    "name": "DKC116-62RIB",
+    "crop": "Corn",
+    "maturity": "116",
+    "trait": "SSPRIB",
+    "strengthAndManagement": [
+      "Strong agronomics including stalk strength and root strength",
+      "Attractive, robust plant type with wide leaves, good staygreen, and balanced stature",
+      "Very good greensnap tolerance, excellent Goss’s Wilt tolerance, and average pH tolerance for western placement"
+    ],
+    "characteristics": {
+      "Gdus to mid-pollination": "1380",
+      "Gdus to black layer": "2915",
+      "Relative maturity": "116",
+      "Variety": "01104490",
+      "Kernel row": "16"
+    },
+    "agronomics": {
+      "Seedling growth": 3,
+      "Emergence": 3,
+      "Root strength": 3,
+      "Stalk strength": 3,
+      "Drought tolerance": 3,
+      "Greensnap tolerance": 3,
+      "Staygreen": 2,
+      "Harvest appearance": 2,
+      "Drydown": 3,
+      "Test weight": 2,
+      "Page 1 of": 3
+    },
+    "diseaseTolerance": {
+      "Gray leaf spot": 4,
+      "Common rust": 3,
+      "Southern rust": 4,
+      "": 4,
+      "Goss's wilt": 3,
+      "Eye spot": 3,
+      "blight - race": 1
+    },
+    "herbicide": {
+      "Growth regulators": "sensitivityA",
+      "Isoxazoles sensitivity -": "preemergenceA",
+      "Sulfonylureas": "sensitivityA"
+    }
+  },
+  "DKC117-27": {
+    "name": "DKC117-27",
+    "crop": "Corn",
+    "maturity": "117",
+    "trait": "VT4P",
+    "strengthAndManagement": [
+      "High yield potential VT4PRO™ Technology product with a girthy ear and ample husk coverage for the south",
+      "Great stalk strength along with good greensnap tolerance",
+      "Tall plant height with lush, relaxed canopy help to create a visually stunning field appearance"
+    ],
+    "characteristics": {
+      "Gdus to mid-pollination": "1385",
+      "Gdus to black layer": "2950",
+      "Relative maturity": "117",
+      "Variety": "01109822",
+      "Kernel row": "16"
+    },
+    "agronomics": {
+      "Seedling growth": 2,
+      "Emergence": 2,
+      "Root strength": 3,
+      "Stalk strength": 2,
+      "Drought tolerance": 3,
+      "Greensnap tolerance": 3,
+      "Staygreen": 3,
+      "Harvest appearance": 3,
+      "Drydown": 3,
+      "Test weight": 3
+    },
+    "diseaseTolerance": {
+      "Gray leaf spot": 4,
+      "Southern rust": 6,
+      "": 3,
+      "Goss's wilt": 5,
+      "blight - race": 1
+    },
+    "herbicide": {
+      "Growth regulators": "sensitivityA",
+      "Isoxazoles sensitivity -": "preemergenceA",
+      "Sulfonylureas": "sensitivityA"
+    }
+  },
+  "DKC117-27RIB": {
+    "name": "DKC117-27RIB",
+    "crop": "Corn",
+    "maturity": "117",
+    "trait": "VT4PRIB",
+    "strengthAndManagement": [
+      "High yield potential VT4PRO™ Technology product with a girthy ear and ample husk coverage for the south",
+      "Great stalk strength along with good greensnap tolerance",
+      "Tall plant height with lush, relaxed canopy help to create a visually stunning field appearance"
+    ],
+    "characteristics": {
+      "Gdus to mid-pollination": "1385",
+      "Gdus to black layer": "2950",
+      "Relative maturity": "117",
+      "Variety": "01109822",
+      "Kernel row": "16"
+    },
+    "agronomics": {
+      "Seedling growth": 2,
+      "Emergence": 2,
+      "Root strength": 3,
+      "Stalk strength": 2,
+      "Drought tolerance": 3,
+      "Greensnap tolerance": 3,
+      "Staygreen": 3,
+      "Harvest appearance": 3,
+      "Drydown": 3,
+      "Test weight": 3
+    },
+    "diseaseTolerance": {
+      "Gray leaf spot": 4,
+      "Southern rust": 6,
+      "": 3,
+      "Goss's wilt": 5,
+      "blight - race": 1
+    },
+    "herbicide": {
+      "Growth regulators": "sensitivityA",
+      "Isoxazoles sensitivity -": "preemergenceA",
+      "Sulfonylureas": "sensitivityA"
+    }
+  },
+  "DKC117-78": {
+    "name": "DKC117-78",
+    "crop": "Corn",
+    "maturity": "117",
+    "trait": "VT2P",
+    "strengthAndManagement": [
+      "Strong yield performance potential with versatility across growing environments",
+      "Above average test weight",
+      "Very strong stress tolerance profile"
+    ],
+    "characteristics": {
+      "Gdus to mid-pollination": "1385",
+      "Gdus to black layer": "2925",
+      "Relative maturity": "117",
+      "Variety": "01097341",
+      "Kernel row": "16"
+    },
+    "agronomics": {
+      "Seedling growth": 2,
+      "Emergence": 2,
+      "Root strength": 2,
+      "Stalk strength": 2,
+      "Drought tolerance": 2,
+      "Greensnap tolerance": 3,
+      "Staygreen": 2,
+      "Harvest appearance": 3,
+      "Drydown": 2,
+      "Test weight": 2,
+      "Page 1 of": 3,
+      "DKC117-": 78
+    },
+    "diseaseTolerance": {
+      "Gray leaf spot": 4,
+      "Common rust": 3,
+      "Southern rust": 5,
+      "": 4,
+      "Goss's wilt": 3,
+      "Eye spot": 3,
+      "blight - race": 1
+    },
+    "herbicide": {
+      "Growth regulators": "sensitivityA",
+      "Isoxazoles sensitivity -": "preemergenceA",
+      "Sulfonylureas": "sensitivityA"
+    }
+  },
+  "DKC117-78RIB": {
+    "name": "DKC117-78RIB",
+    "crop": "Corn",
+    "maturity": "117",
+    "trait": "VT2PRIB",
+    "strengthAndManagement": [
+      "Strong yield performance potential with versatility across growing environments",
+      "Above average test weight",
+      "Very strong stress tolerance profile"
+    ],
+    "characteristics": {
+      "Gdus to mid-pollination": "1385",
+      "Gdus to black layer": "2925",
+      "Relative maturity": "117",
+      "Variety": "01097341",
+      "Kernel row": "16"
+    },
+    "agronomics": {
+      "Seedling growth": 2,
+      "Emergence": 2,
+      "Root strength": 2,
+      "Stalk strength": 2,
+      "Drought tolerance": 2,
+      "Greensnap tolerance": 3,
+      "Staygreen": 2,
+      "Harvest appearance": 3,
+      "Drydown": 2,
+      "Test weight": 2,
+      "Page 1 of": 3
+    },
+    "diseaseTolerance": {
+      "Gray leaf spot": 4,
+      "Common rust": 3,
+      "Southern rust": 5,
+      "": 4,
+      "Goss's wilt": 3,
+      "Eye spot": 3,
+      "blight - race": 1
+    },
+    "herbicide": {
+      "Growth regulators": "sensitivityA",
+      "Isoxazoles sensitivity -": "preemergenceA",
+      "Sulfonylureas": "sensitivityA"
+    }
+  },
+  "DKC119-30": {
+    "name": "DKC119-30",
+    "crop": "Corn",
+    "maturity": "119",
+    "trait": "VT4P",
+    "strengthAndManagement": [
+      "Excellent yield performance potential with broad east to west adaptation",
+      "Very strong heat and drought stress tolerance",
+      "Solid disease tolerance package including Northern Corn Leaf Blight, Gray Leaf Spot, and Anthracnose Stalk Rot"
+    ],
+    "characteristics": {
+      "Gdus to mid-pollination": "1400",
+      "Gdus to black layer": "2970",
+      "Relative maturity": "119",
+      "Variety": "01102500",
+      "Kernel row": "16"
+    },
+    "agronomics": {
+      "Seedling growth": 4,
+      "Emergence": 4,
+      "Root strength": 4,
+      "Stalk strength": 3,
+      "Drought tolerance": 2,
+      "Greensnap tolerance": 2,
+      "Staygreen": 3,
+      "Harvest appearance": 3,
+      "Drydown": 5,
+      "Test weight": 2,
+      "Page 1 of": 3,
+      "DKC119-": 30
+    },
+    "diseaseTolerance": {
+      "Gray leaf spot": 4,
+      "Common rust": 3,
+      "Southern rust": 5,
+      "": 4,
+      "Goss's wilt": 4,
+      "Eye spot": 3,
+      "blight - race": 1
+    },
+    "herbicide": {
+      "Growth regulators": "sensitivityA",
+      "Isoxazoles sensitivity -": "preemergenceA",
+      "Sulfonylureas": "sensitivityA"
+    }
+  },
+  "DKC119-30RIB": {
+    "name": "DKC119-30RIB",
+    "crop": "Corn",
+    "maturity": "119",
+    "trait": "VT4PRIB",
+    "strengthAndManagement": [
+      "Excellent yield performance potential with broad east to west adaptation",
+      "Very strong heat and drought stress tolerance",
+      "Solid disease tolerance package including Northern Corn Leaf Blight, Gray Leaf Spot, and Anthracnose Stalk Rot"
+    ],
+    "characteristics": {
+      "Gdus to mid-pollination": "1400",
+      "Gdus to black layer": "2970",
+      "Relative maturity": "119",
+      "Variety": "01102500",
+      "Kernel row": "16"
+    },
+    "agronomics": {
+      "Seedling growth": 4,
+      "Emergence": 4,
+      "Root strength": 4,
+      "Stalk strength": 3,
+      "Drought tolerance": 2,
+      "Greensnap tolerance": 2,
+      "Staygreen": 3,
+      "Harvest appearance": 3,
+      "Drydown": 5,
+      "Test weight": 2,
+      "Page 1 of": 3
+    },
+    "diseaseTolerance": {
+      "Gray leaf spot": 4,
+      "Common rust": 3,
+      "Southern rust": 5,
+      "": 4,
+      "Goss's wilt": 4,
+      "Eye spot": 3,
+      "blight - race": 1
+    },
+    "herbicide": {
+      "Growth regulators": "sensitivityA",
+      "Isoxazoles sensitivity -": "preemergenceA",
+      "Sulfonylureas": "sensitivityA"
+    }
+  },
+  "DKC25-15RIB": {
+    "name": "DKC25-15RIB",
+    "crop": "Corn",
+    "maturity": "75",
+    "trait": "VT2PRIB",
+    "strengthAndManagement": [
+      "Excellent yield potential with good test weight for the RM",
+      "Semi-flex ear type has shown good performance at medium to medium-low populations",
+      "Can provide an option for early planting with very strong emergence and seedling vigor"
+    ],
+    "characteristics": {
+      "Gdus to mid-pollination": "1040",
+      "Gdus to black layer": "1895",
+      "Relative maturity": "75",
+      "Variety": "01090785",
+      "Kernel row": "14"
+    },
+    "agronomics": {
+      "Seedling growth": 2,
+      "Emergence": 2,
+      "Root strength": 2,
+      "Stalk strength": 3,
+      "Drought tolerance": 2,
+      "Greensnap tolerance": 2,
+      "Staygreen": 2,
+      "Harvest appearance": 3,
+      "Drydown": 2,
+      "Test weight": 3
+    },
+    "diseaseTolerance": {
+      "": 4,
+      "Goss's wilt": 4,
+      "blight - race": 1
+    },
+    "herbicide": {
+      "Growth regulators": "sensitivity-",
+      "Isoxazoles sensitivity -": "preemergence-",
+      "Sulfonylureas": "sensitivity-"
+    }
+  },
+  "DKC28-25RIB": {
+    "name": "DKC28-25RIB",
+    "crop": "Corn",
+    "maturity": "78",
+    "trait": "VT2PRIB",
+    "strengthAndManagement": [
+      "Very good agronomic package with solid root and stalk strength",
+      "Has shown good heat and drought tolerance",
+      "Product has shown very good harvest appearance and intactness with quick dry down and good test weight"
+    ],
+    "characteristics": {
+      "Gdus to mid-pollination": "1055",
+      "Gdus to black layer": "1965",
+      "Relative maturity": "78",
+      "Variety": "01090789",
+      "Kernel row": "16"
+    },
+    "agronomics": {
+      "Seedling growth": 3,
+      "Emergence": 3,
+      "Root strength": 2,
+      "Stalk strength": 3,
+      "Drought tolerance": 2,
+      "Greensnap tolerance": 4,
+      "Staygreen": 3,
+      "Harvest appearance": 2,
+      "Drydown": 2,
+      "Test weight": 3
+    },
+    "diseaseTolerance": {
+      "Gray leaf spot": 6,
+      "Common rust": 3,
+      "": 4,
+      "Goss's wilt": 5,
+      "blight - race": 1
+    },
+    "herbicide": {
+      "Growth regulators": "sensitivityA",
+      "Isoxazoles sensitivity -": "preemergenceA",
+      "Sulfonylureas": "sensitivityA"
+    }
+  },
+  "DKC29-89RIB": {
+    "name": "DKC29-89RIB",
+    "crop": "Corn",
+    "maturity": "79",
+    "trait": "VT2PRIB",
+    "strengthAndManagement": [
+      "Very good Goss's Wilt tolerance for maturity",
+      "Strong standability provided by very good stalks, roots & greensnap tolerance",
+      "Early flowering & good drydown allow use from the 75RM to 85RM"
+    ],
+    "characteristics": {
+      "Gdus to mid-pollination": "1055",
+      "Gdus to black layer": "1975",
+      "Relative maturity": "79",
+      "Variety": "01074435",
+      "Kernel row": "12"
+    },
+    "agronomics": {
+      "Seedling growth": 2,
+      "Emergence": 3,
+      "Root strength": 2,
+      "Stalk strength": 2,
+      "Drought tolerance": 2,
+      "Greensnap tolerance": 2,
+      "Staygreen": 2,
+      "Harvest appearance": 2,
+      "Drydown": 2,
+      "Test weight": 3
+    },
+    "diseaseTolerance": {
+      "Gray leaf spot": 6,
+      "Southern rust": 6,
+      "": 3,
+      "Goss's wilt": 4,
+      "blight - race": 1
+    },
+    "herbicide": {
+      "Growth regulators": "sensitivityA",
+      "Isoxazoles sensitivity -": "preemergenceA",
+      "Sulfonylureas": "sensitivityA"
+    }
+  },
+  "DKC31-85RIB": {
+    "name": "DKC31-85RIB",
+    "crop": "Corn",
+    "maturity": "81",
+    "trait": "VT2PRIB",
+    "strengthAndManagement": [
+      "Has shown potential to perform well in drought conditions",
+      "Strong foliar disease tolerance package can allow use in most environments",
+      "Broad adaptability East to West"
+    ],
+    "characteristics": {
+      "Gdus to mid-pollination": "1080",
+      "Gdus to black layer": "2025",
+      "Relative maturity": "81",
+      "Variety": "01079467",
+      "Kernel row": "16"
+    },
+    "agronomics": {
+      "Seedling growth": 3,
+      "Emergence": 3,
+      "Root strength": 3,
+      "Stalk strength": 3,
+      "Drought tolerance": 2,
+      "Greensnap tolerance": 4,
+      "Staygreen": 3,
+      "Harvest appearance": 3,
+      "Drydown": 2,
+      "Test weight": 3
+    },
+    "diseaseTolerance": {
+      "Gray leaf spot": 5,
+      "Southern rust": 6,
+      "": 3,
+      "Goss's wilt": 4,
+      "blight - race": 1
+    },
+    "herbicide": {
+      "Growth regulators": "sensitivityA",
+      "Isoxazoles sensitivity -": "preemergenceA",
+      "Sulfonylureas": "sensitivityA"
+    }
+  },
+  "DKC32-12RIB": {
+    "name": "DKC32-12RIB",
+    "crop": "Corn",
+    "maturity": "82",
+    "trait": "VT2PRIB",
+    "strengthAndManagement": [
+      "Great top-end yield potential",
+      "Excellent agronomics including good greensnap",
+      "Has shown good ear flex and performance under drought stress"
+    ],
+    "characteristics": {
+      "Gdus to mid-pollination": "1082",
+      "Gdus to black layer": "2050",
+      "Relative maturity": "82",
+      "Variety": "01060324",
+      "Kernel row": "18"
+    },
+    "agronomics": {
+      "Seedling growth": 2,
+      "Emergence": 1,
+      "Root strength": 2,
+      "Stalk strength": 2,
+      "Drought tolerance": 2,
+      "Greensnap tolerance": 2,
+      "Staygreen": 2,
+      "Harvest appearance": 4,
+      "Drydown": 1,
+      "Test weight": 2,
+      "Page 1 of": 3
+    },
+    "diseaseTolerance": {
+      "Common rust": 3,
+      "": 4,
+      "Goss's wilt": 4,
+      "Eye spot": 3,
+      "blight - race": 1
+    },
+    "herbicide": {
+      "Growth regulators": "sensitivityA",
+      "Isoxazoles sensitivity -": "preemergenceA",
+      "Sulfonylureas": "sensitivityA"
+    }
+  },
+  "DKC32-35RIB": {
+    "name": "DKC32-35RIB",
+    "crop": "",
+    "maturity": "",
+    "trait": "",
+    "strengthAndManagement": [
+      "P ro d u c t   h a s   s h o w n   o u t s t a n d i n g   y i e l d   p o t e n t i a l   w i t h   e x c e l l e n t   s t a b i l i t y",
+      "S o l i d   a g ro n o m i c   p a c k a g e   w i t h   v e r y   g o o d   e m e r g e n c e   a n d   s e e d l i n g   v i g o r   e n a b l e s   e a r l y   p l a n t i n g",
+      "H a s   s h o w c a s e d   v e r y   g o o d   e a r   fl e x   p a r t n e re d   w i t h   s t ro n g   t i p   fi l l ;   m e d i u m   p o p u l a t i o n s   re c o m m e n d e d"
+    ],
+    "characteristics": {
+      "Gdus to mid-pollination": "1080",
+      "Gdus to black layer": "2060",
+      "Relative maturity": "82",
+      "Variety": "01090799",
+      "Kernel row": "18"
+    },
+    "agronomics": {
+      "Seedling growth": 2,
+      "Emergence": 2,
+      "Root strength": 2,
+      "Stalk strength": 3,
+      "Drought tolerance": 2,
+      "Greensnap tolerance": 2,
+      "Staygreen": 2,
+      "Harvest appearance": 2,
+      "Drydown": 2,
+      "Test weight": 3
+    },
+    "diseaseTolerance": {
+      "Gray leaf spot": 6,
+      "Common rust": 3,
+      "": 4,
+      "Goss's wilt": 5,
+      "blight - race": 1
+    },
+    "herbicide": {
+      "Growth regulators": "sensitivityA",
+      "Isoxazoles sensitivity -": "preemergenceA",
+      "Sulfonylureas": "sensitivityA"
+    }
+  },
+  "DKC35-34RIB": {
+    "name": "DKC35-34RIB",
+    "crop": "Corn",
+    "maturity": "85",
+    "trait": "SSRIB",
+    "strengthAndManagement": [
+      "Excellent yield potential in the 85RM zone",
+      "Medium plant stature with excellent greensnap tolerance and Goss’s Wilt tolerance, enabling placement in western regions",
+      "Very strong Northern Corn Leaf Blight and Anthracnose Stalk Rot disease tolerance package"
+    ],
+    "characteristics": {
+      "Gdus to mid-pollination": "1115",
+      "Gdus to black layer": "2145",
+      "Relative maturity": "85",
+      "Variety": "01089958",
+      "Kernel row": "16"
+    },
+    "agronomics": {
+      "Seedling growth": 2,
+      "Emergence": 2,
+      "Root strength": 3,
+      "Stalk strength": 2,
+      "Drought tolerance": 3,
+      "Greensnap tolerance": 2,
+      "Staygreen": 4,
+      "Harvest appearance": 3,
+      "Drydown": 3,
+      "Test weight": 3
+    },
+    "diseaseTolerance": {
+      "Gray leaf spot": 6,
+      "Common rust": 3,
+      "": 3,
+      "Goss's wilt": 3,
+      "blight - race": 1
+    },
+    "herbicide": {
+      "Growth regulators": "sensitivityA",
+      "Isoxazoles sensitivity -": "preemergenceA",
+      "Sulfonylureas": "sensitivityA"
+    }
+  },
+  "DKC35-88RIB": {
+    "name": "DKC35-88RIB",
+    "crop": "Corn",
+    "maturity": "85",
+    "trait": "VT2PRIB",
+    "strengthAndManagement": [
+      "Very good drought tolerance",
+      "Has shown good greensnap tolerance",
+      "Has shown very good test weight and nice deep kernels"
+    ],
+    "characteristics": {
+      "Gdus to mid-pollination": "1100",
+      "Gdus to black layer": "2125",
+      "Relative maturity": "85",
+      "Variety": "01065423",
+      "Kernel row": "16"
+    },
+    "agronomics": {
+      "Seedling growth": 3,
+      "Emergence": 2,
+      "Root strength": 3,
+      "Stalk strength": 2,
+      "Drought tolerance": 2,
+      "Greensnap tolerance": 2,
+      "Staygreen": 3,
+      "Harvest appearance": 4,
+      "Drydown": 3,
+      "Test weight": 3,
+      "Page 1 of": 3
+    },
+    "diseaseTolerance": {
+      "Gray leaf spot": 5,
+      "Common rust": 4,
+      "": 4,
+      "Goss's wilt": 4,
+      "Eye spot": 4,
+      "blight - race": 1
+    },
+    "herbicide": {
+      "Growth regulators": "sensitivityA",
+      "Isoxazoles sensitivity -": "preemergenceA",
+      "Sulfonylureas": "sensitivityA"
+    }
+  },
+  "DKC36-48RIB": {
+    "name": "DKC36-48RIB",
+    "crop": "Corn",
+    "maturity": "86",
+    "trait": "VT2PRIB",
+    "strengthAndManagement": [
+      "Very good overall foliar disease package",
+      "Can perform well from west to east in the 85 RM zone",
+      "Has shown good open husk for quicker drydown"
+    ],
+    "characteristics": {
+      "Gdus to mid-pollination": "1120",
+      "Gdus to black layer": "2150",
+      "Relative maturity": "86",
+      "Variety": "01081018",
+      "Kernel row": "18"
+    },
+    "agronomics": {
+      "Seedling growth": 3,
+      "Emergence": 3,
+      "Root strength": 3,
+      "Stalk strength": 3,
+      "Drought tolerance": 2,
+      "Greensnap tolerance": 3,
+      "Staygreen": 4,
+      "Harvest appearance": 2,
+      "Drydown": 3,
+      "Test weight": 4
+    },
+    "diseaseTolerance": {
+      "": 4,
+      "Goss's wilt": 3,
+      "blight - race": 1
+    },
+    "herbicide": {
+      "Growth regulators": "sensitivityA",
+      "Isoxazoles sensitivity -": "preemergenceA",
+      "Sulfonylureas": "sensitivityA"
+    }
+  },
+  "DKC36-86RIB": {
+    "name": "DKC36-86RIB",
+    "crop": "Corn",
+    "maturity": "86",
+    "trait": "VT2PRIB",
+    "strengthAndManagement": [
+      "Moderate stature plant that has shown very good overall agronomics",
+      "Has shown a girthy ear type with deep kernels",
+      "Can provide a nice late season harvest appearance"
+    ],
+    "characteristics": {
+      "Gdus to mid-pollination": "1125",
+      "Gdus to black layer": "2150",
+      "Relative maturity": "86",
+      "Variety": "01080854",
+      "Kernel row": "20"
+    },
+    "agronomics": {
+      "Seedling growth": 3,
+      "Emergence": 3,
+      "Root strength": 3,
+      "Stalk strength": 2,
+      "Drought tolerance": 3,
+      "Greensnap tolerance": 2,
+      "Staygreen": 4,
+      "Harvest appearance": 2,
+      "Drydown": 4,
+      "Test weight": 4
+    },
+    "diseaseTolerance": {
+      "": 4,
+      "Goss's wilt": 4,
+      "blight - race": 1
+    },
+    "herbicide": {
+      "Growth regulators": "sensitivityA",
+      "Isoxazoles sensitivity -": "preemergenceA",
+      "Sulfonylureas": "sensitivityA"
+    }
+  },
+  "DKC39-54RIB": {
+    "name": "DKC39-54RIB",
+    "crop": "Corn",
+    "maturity": "89",
+    "trait": "SSRIB",
+    "strengthAndManagement": [
+      "Has show very good yield potential across the cornbelt in the 90 RM zone with good north of zone movement",
+      "Widely adapted germplasm from East to West",
+      "Can provide very good tolerance to Northern Corn Leaf Blight"
+    ],
+    "characteristics": {
+      "Gdus to mid-pollination": "1200",
+      "Gdus to black layer": "2225",
+      "Relative maturity": "89",
+      "Variety": "01081376",
+      "Kernel row": "16"
+    },
+    "agronomics": {
+      "Seedling growth": 2,
+      "Emergence": 2,
+      "Root strength": 2,
+      "Stalk strength": 2,
+      "Drought tolerance": 3,
+      "Greensnap tolerance": 2,
+      "Staygreen": 3,
+      "Harvest appearance": 3,
+      "Drydown": 2,
+      "Test weight": 2
+    },
+    "diseaseTolerance": {
+      "": 3,
+      "Goss's wilt": 3,
+      "blight - race": 1
+    },
+    "herbicide": {
+      "Growth regulators": "sensitivityA",
+      "Isoxazoles sensitivity -": "preemergenceA",
+      "Sulfonylureas": "sensitivityA"
+    }
+  },
+  "DKC39-55RIB": {
+    "name": "DKC39-55RIB",
+    "crop": "",
+    "maturity": "",
+    "trait": "",
+    "strengthAndManagement": [
+      "H a s   s h o w   v e r y   g o o d   y i e l d   p o t e n t i a l   a c ro s s   t h e   c o r n b e l t   i n   t h e   9 0   R M   z o n e   w i t h   g o o d   n o r t h   o f   z o n e   m o v e m e n t",
+      "W i d e l y   a d a p t e d   g e r m p l a s m   f ro m   E a s t   t o   We s t",
+      "C a n   p ro v i d e   v e r y   g o o d   t o l e r a n c e   t o   N o r t h e r n   C o r n   L e a f   B l i g h t"
+    ],
+    "characteristics": {
+      "Gdus to mid-pollination": "1200",
+      "Gdus to black layer": "2225",
+      "Relative maturity": "89",
+      "Variety": "01080975",
+      "Kernel row": "16"
+    },
+    "agronomics": {
+      "Seedling growth": 2,
+      "Emergence": 2,
+      "Root strength": 3,
+      "Stalk strength": 2,
+      "Drought tolerance": 3,
+      "Greensnap tolerance": 2,
+      "Staygreen": 3,
+      "Harvest appearance": 3,
+      "Drydown": 2,
+      "Test weight": 2
+    },
+    "diseaseTolerance": {
+      "": 3,
+      "Goss's wilt": 3,
+      "blight - race": 1
+    },
+    "herbicide": {
+      "Growth regulators": "sensitivityA",
+      "Isoxazoles sensitivity -": "preemergenceA",
+      "Sulfonylureas": "sensitivityA"
+    }
+  },
+  "DKC40-64RIB": {
+    "name": "DKC40-64RIB",
+    "crop": "Corn",
+    "maturity": "90",
+    "trait": "SSRIB",
+    "strengthAndManagement": [
+      "Broad adaptability enables movement north and south of RM zone",
+      "Strong emergence and stand establishment",
+      "Product has shown potential western fit with excellent greensnap tolerance and very strong Goss’s Wilt disease tolerance"
+    ],
+    "characteristics": {
+      "Gdus to mid-pollination": "1195",
+      "Gdus to black layer": "2260",
+      "Relative maturity": "90",
+      "Variety": "01085871",
+      "Kernel row": "14"
+    },
+    "agronomics": {
+      "Seedling growth": 2,
+      "Emergence": 3,
+      "Root strength": 2,
+      "Stalk strength": 2,
+      "Drought tolerance": 3,
+      "Greensnap tolerance": 2,
+      "Staygreen": 2,
+      "Harvest appearance": 2,
+      "Drydown": 2,
+      "Test weight": 2
+    },
+    "diseaseTolerance": {
+      "Gray leaf spot": 5,
+      "Common rust": 3,
+      "": 5,
+      "Goss's wilt": 3,
+      "blight - race": 1
+    },
+    "herbicide": {
+      "Growth regulators": "sensitivityA",
+      "Isoxazoles sensitivity -": "preemergenceA",
+      "Sulfonylureas": "sensitivityA"
+    }
+  },
+  "DKC40-77RIB": {
+    "name": "DKC40-77RIB",
+    "crop": "Corn",
+    "maturity": "90",
+    "trait": "SSRIB",
+    "strengthAndManagement": [
+      "Very attractive product at harvest time",
+      "Excellent greensnap tolerance",
+      "Broadly adapted in both the East and West"
+    ],
+    "characteristics": {
+      "Gdus to mid-pollination": "1170",
+      "Gdus to black layer": "2250",
+      "Relative maturity": "90",
+      "Variety": "01063141",
+      "Kernel row": "16"
+    },
+    "agronomics": {
+      "Seedling growth": 4,
+      "Emergence": 2,
+      "Root strength": 2,
+      "Stalk strength": 2,
+      "Drought tolerance": 4,
+      "Greensnap tolerance": 2,
+      "Staygreen": 3,
+      "Harvest appearance": 4,
+      "Drydown": 3,
+      "Test weight": 3,
+      "Page 1 of": 3
+    },
+    "diseaseTolerance": {
+      "Gray leaf spot": 5,
+      "": 4,
+      "Goss's wilt": 5,
+      "blight - race": 1
+    },
+    "herbicide": {
+      "Growth regulators": "sensitivityA",
+      "Isoxazoles sensitivity -": "preemergenceA",
+      "Sulfonylureas": "sensitivityA"
+    }
+  },
+  "DKC40-99RIB": {
+    "name": "DKC40-99RIB",
+    "crop": "Corn",
+    "maturity": "90",
+    "trait": "TRERIB",
+    "strengthAndManagement": [
+      "Broadly adapted across environments in the 90RM band with very good utilization North and South of zone",
+      "Has shown a very good emergence and seedling vigor package",
+      "Excellent stalk and root strength has been exhibited with this product"
+    ],
+    "characteristics": {
+      "Gdus to mid-pollination": "1185",
+      "Gdus to black layer": "2250",
+      "Relative maturity": "90",
+      "Variety": "01085863",
+      "Kernel row": "16"
+    },
+    "agronomics": {
+      "Seedling growth": 2,
+      "Emergence": 2,
+      "Root strength": 2,
+      "Stalk strength": 2,
+      "Drought tolerance": 2,
+      "Greensnap tolerance": 2,
+      "Staygreen": 3,
+      "Harvest appearance": 3,
+      "Drydown": 2,
+      "Test weight": 4
+    },
+    "diseaseTolerance": {
+      "Gray leaf spot": 5,
+      "": 3,
+      "Goss's wilt": 4,
+      "blight - race": 1
+    },
+    "herbicide": {
+      "Growth regulators": "sensitivityA",
+      "Isoxazoles sensitivity -": "preemergenceA",
+      "Sulfonylureas": "sensitivityA"
+    }
+  },
+  "DKC41-54RIB": {
+    "name": "DKC41-54RIB",
+    "crop": "Corn",
+    "maturity": "91",
+    "trait": "SSPRIB",
+    "strengthAndManagement": [
+      "Incredible test weight with great kernel depth on a girthy ear; average drydown",
+      "Medium plant height with excellent staygreen and nice appearance at harvest",
+      "Product has shown strong stalk strength"
+    ],
+    "characteristics": {
+      "Gdus to mid-pollination": "1200",
+      "Gdus to black layer": "2295",
+      "Relative maturity": "91",
+      "Variety": "01089992",
+      "Kernel row": "18"
+    },
+    "agronomics": {
+      "Seedling growth": 3,
+      "Emergence": 3,
+      "Root strength": 2,
+      "Stalk strength": 2,
+      "Drought tolerance": 2,
+      "Greensnap tolerance": 3,
+      "Staygreen": 2,
+      "Harvest appearance": 2,
+      "Drydown": 3,
+      "Test weight": 1
+    },
+    "diseaseTolerance": {
+      "Gray leaf spot": 5,
+      "Common rust": 3,
+      "": 4,
+      "Goss's wilt": 4,
+      "blight - race": 1
+    },
+    "herbicide": {
+      "Growth regulators": "sensitivityA",
+      "Isoxazoles sensitivity -": "preemergenceA",
+      "Sulfonylureas": "sensitivityA"
+    }
+  },
+  "DKC41-55RIB": {
+    "name": "DKC41-55RIB",
+    "crop": "Corn",
+    "maturity": "91",
+    "trait": "VT2PRIB",
+    "strengthAndManagement": [
+      "Incredible test weight with great kernel depth on a girthy ear; average drydown",
+      "Medium plant height with excellent staygreen and nice appearance at harvest",
+      "Product has shown strong root and stalk strength"
+    ],
+    "characteristics": {
+      "Gdus to mid-pollination": "1200",
+      "Gdus to black layer": "2295",
+      "Relative maturity": "91",
+      "Variety": "01090874",
+      "Kernel row": "18"
+    },
+    "agronomics": {
+      "Seedling growth": 3,
+      "Emergence": 3,
+      "Root strength": 2,
+      "Stalk strength": 2,
+      "Drought tolerance": 2,
+      "Greensnap tolerance": 3,
+      "Staygreen": 2,
+      "Harvest appearance": 2,
+      "Drydown": 3,
+      "Test weight": 1
+    },
+    "diseaseTolerance": {
+      "Gray leaf spot": 5,
+      "Common rust": 3,
+      "": 4,
+      "Goss's wilt": 4,
+      "blight - race": 1
+    },
+    "herbicide": {
+      "Growth regulators": "sensitivityA",
+      "Isoxazoles sensitivity -": "preemergenceA",
+      "Sulfonylureas": "sensitivityA"
+    }
+  },
+  "DKC42-64RIB": {
+    "name": "DKC42-64RIB",
+    "crop": "Corn",
+    "maturity": "92",
+    "trait": "SSRIB",
+    "strengthAndManagement": [
+      "Widely adapted product with very good East to West and North to South movement",
+      "Excellent plant growth characteristics including strong stalk and root strength",
+      "Hybrid has demonstrated excellent greensnap tolerance for good movement into greensnap prone areas in the Western"
+    ],
+    "characteristics": {
+      "Gdus to mid-pollination": "1190",
+      "Gdus to black layer": "2315",
+      "Relative maturity": "92",
+      "Variety": "01085873",
+      "Kernel row": "16"
+    },
+    "agronomics": {
+      "Seedling growth": 2,
+      "Emergence": 3,
+      "Root strength": 2,
+      "Stalk strength": 2,
+      "Drought tolerance": 3,
+      "Greensnap tolerance": 2,
+      "Staygreen": 2,
+      "Harvest appearance": 1,
+      "Drydown": 3,
+      "Test weight": 4
+    },
+    "diseaseTolerance": {
+      "Gray leaf spot": 5,
+      "": 4,
+      "Goss's wilt": 3,
+      "blight - race": 1
+    },
+    "herbicide": {
+      "Growth regulators": "sensitivityA",
+      "Isoxazoles sensitivity -": "preemergenceA",
+      "Sulfonylureas": "sensitivityA"
+    }
+  },
+  "DKC42-65RIB": {
+    "name": "DKC42-65RIB",
+    "crop": "Corn",
+    "maturity": "92",
+    "trait": "VT2PRIB",
+    "strengthAndManagement": [
+      "Widely adapted product with very good East to West and North to South movement",
+      "Excellent plant growth characteristics including strong stalk and root strength",
+      "Hybrid has demonstrated excellent greensnap tolerance for good movement into greensnap prone areas in the Western"
+    ],
+    "characteristics": {
+      "Gdus to mid-pollination": "1190",
+      "Gdus to black layer": "2315",
+      "Relative maturity": "92",
+      "Variety": "01085874",
+      "Kernel row": "16"
+    },
+    "agronomics": {
+      "Seedling growth": 2,
+      "Emergence": 3,
+      "Root strength": 2,
+      "Stalk strength": 2,
+      "Drought tolerance": 3,
+      "Greensnap tolerance": 2,
+      "Staygreen": 2,
+      "Harvest appearance": 1,
+      "Drydown": 3,
+      "Test weight": 4
+    },
+    "diseaseTolerance": {
+      "Gray leaf spot": 5,
+      "": 4,
+      "Goss's wilt": 4,
+      "blight - race": 1
+    },
+    "herbicide": {
+      "Growth regulators": "sensitivityA",
+      "Isoxazoles sensitivity -": "preemergenceA",
+      "Sulfonylureas": "sensitivityA"
+    }
+  },
+  "DKC43-10RIB": {
+    "name": "DKC43-10RIB",
+    "crop": "Corn",
+    "maturity": "93",
+    "trait": "VT2PRIB",
+    "strengthAndManagement": [
+      "Excellent yield potential across multiple environments",
+      "Excellent seedling vigor for early planting",
+      "Excellent roots and very good stalks"
+    ],
+    "characteristics": {
+      "Gdus to mid-pollination": "1260",
+      "Gdus to black layer": "2325",
+      "Relative maturity": "93",
+      "VarietyA": "1028457",
+      "Kernel row": "18"
+    },
+    "agronomics": {
+      "Seedling growth": 3,
+      "Emergence": 2,
+      "Root strength": 4,
+      "Stalk strength": 5,
+      "Drought tolerance": 2,
+      "Greensnap tolerance": 4,
+      "Staygreen": 4,
+      "Harvest appearance": 4,
+      "Drydown": 2,
+      "Test weight": 4,
+      "Page 1 of": 3
+    },
+    "diseaseTolerance": {
+      "Gray leaf spot": 6,
+      "Common rust": 3,
+      "Southern rust": 4,
+      "": 4,
+      "Goss's wilt": 4,
+      "Stewart's leaf blight": 3,
+      "blight - race": 1
+    },
+    "herbicide": {
+      "Growth regulators": "sensitivityA",
+      "Isoxazoles sensitivity -": "preemergenceA",
+      "Sulfonylureas": "sensitivityA"
+    }
+  },
+  "DKC43-46": {
+    "name": "DKC43-46",
+    "crop": "Corn",
+    "maturity": "93",
+    "trait": "RR2",
+    "strengthAndManagement": [
+      "High top-end yield potential",
+      "Excellent seedling vigor for early planting",
+      "Has shown excellent stalks and very good roots"
+    ],
+    "characteristics": {
+      "Gdus to mid-pollination": "1235",
+      "Gdus to black layer": "2325",
+      "Value added traitRR": "2",
+      "Relative maturity": "93",
+      "Variety": "01045391",
+      "Kernel row": "16"
+    },
+    "agronomics": {
+      "Seedling growth": 2,
+      "Emergence": 2,
+      "Root strength": 5,
+      "Stalk strength": 3,
+      "Drought tolerance": 3,
+      "Greensnap tolerance": 3,
+      "Staygreen": 3,
+      "Harvest appearance": 3,
+      "Drydown": 2,
+      "Test weight": 4,
+      "Page 1 of": 3,
+      "DKC43-": 46
+    },
+    "diseaseTolerance": {
+      "": 3,
+      "Gray leaf spot": 2,
+      "Common rust": 2,
+      "Goss's wilt": 4,
+      "Eye spot": 2,
+      "Stewart's leaf blight": 2,
+      "blight - race": 1
+    },
+    "herbicide": {
+      "Growth regulators": "sensitivityC",
+      "Isoxazoles sensitivity -": "preemergenceA",
+      "Sulfonylureas": "sensitivityA"
+    }
+  },
+  "DKC43-75RIB": {
+    "name": "DKC43-75RIB",
+    "crop": "Corn",
+    "maturity": "93",
+    "trait": "VT2PRIB",
+    "strengthAndManagement": [
+      "Has exhibited good greensnap tolerance",
+      "Strong foliar disease tolerance package allows use in most environments",
+      "Good Goss's Wilt tolerance rating"
+    ],
+    "characteristics": {
+      "Gdus to mid-pollination": "1215",
+      "Gdus to black layer": "2325",
+      "Relative maturity": "93",
+      "Variety": "01074544",
+      "Kernel row": "18"
+    },
+    "agronomics": {
+      "Seedling growth": 3,
+      "Emergence": 2,
+      "Root strength": 2,
+      "Stalk strength": 2,
+      "Drought tolerance": 3,
+      "Greensnap tolerance": 2,
+      "Staygreen": 3,
+      "Harvest appearance": 2,
+      "Drydown": 1,
+      "Test weight": 3
+    },
+    "diseaseTolerance": {
+      "Gray leaf spot": 4,
+      "Southern rust": 5,
+      "": 3,
+      "Goss's wilt": 4,
+      "blight - race": 1
+    },
+    "herbicide": {
+      "Growth regulators": "sensitivityA",
+      "Isoxazoles sensitivity -": "preemergenceA",
+      "Sulfonylureas": "sensitivityA"
+    }
+  },
+  "DKC44-80RIB": {
+    "name": "DKC44-80RIB",
+    "crop": "Corn",
+    "maturity": "94",
+    "trait": "VT2PRIB",
+    "strengthAndManagement": [
+      "Has shown strong silage yield and quality",
+      "No known herbicide sensitivities",
+      "Excellent yield potential across most environments"
+    ],
+    "characteristics": {
+      "Gdus to mid-pollination": "1240",
+      "Gdus to black layer": "2330",
+      "Relative maturity": "94",
+      "Variety": "01074363",
+      "Kernel row": "16"
+    },
+    "agronomics": {
+      "Seedling growth": 2,
+      "Emergence": 2,
+      "Root strength": 4,
+      "Stalk strength": 3,
+      "Drought tolerance": 3,
+      "Greensnap tolerance": 4,
+      "Staygreen": 3,
+      "Harvest appearance": 3,
+      "Drydown": 2,
+      "Test weight": 4
+    },
+    "diseaseTolerance": {
+      "Gray leaf spot": 5,
+      "Southern rust": 6,
+      "": 4,
+      "Goss's wilt": 5,
+      "blight - race": 1
+    },
+    "herbicide": {
+      "Growth regulators": "sensitivityA",
+      "Isoxazoles sensitivity -": "preemergenceA",
+      "Sulfonylureas": "sensitivityA"
+    }
+  },
+  "DKC44-97RIB": {
+    "name": "DKC44-97RIB",
+    "crop": "Corn",
+    "maturity": "94",
+    "trait": "SSRIB",
+    "strengthAndManagement": [
+      "Shown to be a versatile hybrid that can be planted across different soil types, tillage and crop management practices",
+      "Good emergence and seedling vigor",
+      "Has demonstrated very strong agronomics including stalk and root strength as well as greensnap tolerance"
+    ],
+    "characteristics": {
+      "Gdus to mid-pollination": "1240",
+      "Gdus to black layer": "2350",
+      "Relative maturity": "94",
+      "Variety": "01085887",
+      "Kernel row": "16"
+    },
+    "agronomics": {
+      "Seedling growth": 3,
+      "Emergence": 3,
+      "Root strength": 2,
+      "Stalk strength": 2,
+      "Drought tolerance": 3,
+      "Greensnap tolerance": 2,
+      "Staygreen": 2,
+      "Harvest appearance": 1,
+      "Drydown": 2,
+      "Test weight": 2
+    },
+    "diseaseTolerance": {
+      "Gray leaf spot": 5,
+      "": 4,
+      "Goss's wilt": 4,
+      "blight - race": 1
+    },
+    "herbicide": {
+      "Growth regulators": "sensitivityA",
+      "Isoxazoles sensitivity -": "preemergenceA",
+      "Sulfonylureas": "sensitivityA"
+    }
+  },
+  "DKC44-98RIB": {
+    "name": "DKC44-98RIB",
+    "crop": "Corn",
+    "maturity": "94",
+    "trait": "VT2PRIB",
+    "strengthAndManagement": [
+      "Shown to be a versatile hybrid that can be planted across different soil types, tillage and crop management practices",
+      "Good emergence and seedling vigor",
+      "Has demonstrated very strong agronomics including stalk and root strength as well as greensnap tolerance"
+    ],
+    "characteristics": {
+      "Gdus to mid-pollination": "1240",
+      "Gdus to black layer": "2350",
+      "Relative maturity": "94",
+      "Variety": "01085889",
+      "Kernel row": "16"
+    },
+    "agronomics": {
+      "Seedling growth": 3,
+      "Emergence": 3,
+      "Root strength": 2,
+      "Stalk strength": 2,
+      "Drought tolerance": 3,
+      "Greensnap tolerance": 2,
+      "Staygreen": 2,
+      "Harvest appearance": 1,
+      "Drydown": 2,
+      "Test weight": 2
+    },
+    "diseaseTolerance": {
+      "Gray leaf spot": 5,
+      "": 4,
+      "Goss's wilt": 5,
+      "blight - race": 1
+    },
+    "herbicide": {
+      "Growth regulators": "sensitivityA",
+      "Isoxazoles sensitivity -": "preemergenceA",
+      "Sulfonylureas": "sensitivityA"
+    }
+  },
+  "DKC45-35RIB": {
+    "name": "DKC45-35RIB",
+    "crop": "Corn",
+    "maturity": "95",
+    "trait": "VT2PRIB",
+    "strengthAndManagement": [
+      "Excellent yield potential with central to east adaptation; has shown ability to perform south in the early 100RM zone",
+      "Above average emergence and vigor for early planting",
+      "Medium planting populations recommended; consider increasing populations when coupled with high management"
+    ],
+    "characteristics": {
+      "Gdus to mid-pollination": "1260",
+      "Gdus to black layer": "2405",
+      "Relative maturity": "95",
+      "Variety": "01090918",
+      "Kernel row": "18"
+    },
+    "agronomics": {
+      "Seedling growth": 2,
+      "Emergence": 2,
+      "Root strength": 2,
+      "Stalk strength": 3,
+      "Drought tolerance": 3,
+      "Greensnap tolerance": 3,
+      "Staygreen": 3,
+      "Harvest appearance": 3,
+      "Drydown": 3,
+      "Test weight": 2
+    },
+    "diseaseTolerance": {
+      "Gray leaf spot": 4,
+      "Common rust": 3,
+      "": 4,
+      "Goss's wilt": 5,
+      "blight - race": 1
+    },
+    "herbicide": {
+      "Growth regulators": "sensitivityA",
+      "Isoxazoles sensitivity -": "preemergenceA",
+      "Sulfonylureas": "sensitivityA"
+    }
+  },
+  "DKC45-65RIB": {
+    "name": "DKC45-65RIB",
+    "crop": "Corn",
+    "maturity": "95",
+    "trait": "SSRIB",
+    "strengthAndManagement": [
+      "Has shown good Goss's Wilt tolerance",
+      "Very good yield potential in high and low yield environments",
+      "Good test weight"
+    ],
+    "characteristics": {
+      "Gdus to mid-pollination": "1244",
+      "Gdus to black layer": "2375",
+      "Relative maturity": "95",
+      "Variety": "01052404",
+      "Kernel row": "16"
+    },
+    "agronomics": {
+      "Seedling growth": 2,
+      "Emergence": 2,
+      "Root strength": 3,
+      "Stalk strength": 2,
+      "Drought tolerance": 2,
+      "Greensnap tolerance": 5,
+      "Staygreen": 2,
+      "Harvest appearance": 2,
+      "Drydown": 2,
+      "Test weight": 3,
+      "Page 1 of": 3
+    },
+    "diseaseTolerance": {
+      "": 3,
+      "Gray leaf spot": 6,
+      "Common rust": 3,
+      "Goss's wilt": 4,
+      "Eye spot": 3,
+      "Stewart's leaf blight": 3,
+      "blight - race": 1
+    },
+    "herbicide": {
+      "Growth regulators": "sensitivityA",
+      "Isoxazoles sensitivity -": "preemergenceA",
+      "Sulfonylureas": "sensitivityA"
+    }
+  },
+  "DKC45-74RIB": {
+    "name": "DKC45-74RIB",
+    "crop": "Corn",
+    "maturity": "95",
+    "trait": "SSRIB",
+    "strengthAndManagement": [
+      "Broadly adapted product with utilization from east to west with great yield potential",
+      "Very strong emergence package as an option for early planting",
+      "Strong disease tolerance package including Northern Corn Leaf Blight, Anthracnose Stalk Rot, and Goss’s Wilt"
+    ],
+    "characteristics": {
+      "Gdus to mid-pollination": "1260",
+      "Gdus to black layer": "2400",
+      "Relative maturity": "95",
+      "Variety": "01090003",
+      "Kernel row": "16"
+    },
+    "agronomics": {
+      "Seedling growth": 2,
+      "Emergence": 2,
+      "Root strength": 3,
+      "Stalk strength": 2,
+      "Drought tolerance": 2,
+      "Greensnap tolerance": 2,
+      "Staygreen": 2,
+      "Harvest appearance": 2,
+      "Drydown": 2,
+      "Test weight": 3
+    },
+    "diseaseTolerance": {
+      "": 4,
+      "Goss's wilt": 4,
+      "blight - race": 1
+    },
+    "herbicide": {
+      "Growth regulators": "sensitivityA",
+      "Isoxazoles sensitivity -": "preemergenceA",
+      "Sulfonylureas": "sensitivityA"
+    }
+  },
+  "DKC46-18": {
+    "name": "DKC46-18",
+    "crop": "Corn",
+    "maturity": "96",
+    "trait": "RR2",
+    "strengthAndManagement": [
+      "Excellent top-end yield potential",
+      "Excellent seedling vigor",
+      "Excellent stalks and roots"
+    ],
+    "characteristics": {
+      "Gdus to mid-pollination": "1267",
+      "Gdus to black layer": "2400",
+      "Value added traitRR": "2",
+      "Relative maturity": "96",
+      "VarietyA": "1031275",
+      "Kernel row": "16"
+    },
+    "agronomics": {
+      "Seedling growth": 3,
+      "Emergence": 3,
+      "Root strength": 4,
+      "Stalk strength": 3,
+      "Drought tolerance": 2,
+      "Greensnap tolerance": 3,
+      "Staygreen": 3,
+      "Harvest appearance": 3,
+      "Drydown": 3,
+      "Test weight": 2,
+      "Page 1 of": 3,
+      "DKC46-": 18
+    },
+    "diseaseTolerance": {
+      "": 2,
+      "Gray leaf spot": 4,
+      "Common rust": 3,
+      "Goss's wilt": 4,
+      "Eye spot": 3,
+      "Stewart's leaf blight": 2,
+      "blight - race": 1
+    },
+    "herbicide": {
+      "Growth regulators": "sensitivityC",
+      "Isoxazoles sensitivity -": "preemergenceA",
+      "Sulfonylureas": "sensitivityA"
+    }
+  },
+  "DKC46-50RIB": {
+    "name": "DKC46-50RIB",
+    "crop": "Corn",
+    "maturity": "96",
+    "trait": "SSRIB",
+    "strengthAndManagement": [
+      "Product has displayed exceptional early season emergence and seedling vigor, a choice for early planting situations",
+      "Medium chassis plant type with medium ear placement",
+      "Can provide very good tolerance to Anthracnose Stalk Rot"
+    ],
+    "characteristics": {
+      "Gdus to mid-pollination": "1260",
+      "Gdus to black layer": "2405",
+      "Relative maturity": "96",
+      "Variety": "01089108",
+      "Kernel row": "16"
+    },
+    "agronomics": {
+      "Seedling growth": 2,
+      "Emergence": 2,
+      "Root strength": 2,
+      "Stalk strength": 3,
+      "Drought tolerance": 2,
+      "Greensnap tolerance": 2,
+      "Staygreen": 4,
+      "Harvest appearance": 3,
+      "Drydown": 2,
+      "Test weight": 2
+    },
+    "diseaseTolerance": {
+      "Gray leaf spot": 5,
+      "": 4,
+      "Goss's wilt": 6,
+      "blight - race": 1
+    },
+    "herbicide": {
+      "Growth regulators": "sensitivityA",
+      "Isoxazoles sensitivity -": "preemergenceA",
+      "Sulfonylureas": "sensitivityA"
+    }
+  },
+  "DKC47-23": {
+    "name": "DKC47-23",
+    "crop": "",
+    "maturity": "",
+    "trait": "",
+    "strengthAndManagement": [
+      "Outstanding top-end yield potential for a 97 RM product",
+      "Has shown excellent drought tolerance",
+      "Has shown very good emergence and excellent seedling vigor"
+    ],
+    "characteristics": {
+      "Gdus to mid-pollination": "1253",
+      "Gdus to black layer": "2375",
+      "Relative maturity": "97",
+      "VarietyA": "1019710",
+      "Kernel row": "16"
+    },
+    "agronomics": {
+      "Seedling growth": 3,
+      "Emergence": 3,
+      "Root strength": 4,
+      "Stalk strength": 3,
+      "Drought tolerance": 2,
+      "Greensnap tolerance": 3,
+      "Staygreen": 3,
+      "Harvest appearance": 3,
+      "Drydown": 2,
+      "Test weight": 2,
+      "Page 1 of": 3,
+      "DKC47-": 23
+    },
+    "diseaseTolerance": {
+      "Gray leaf spot": 4,
+      "Common rust": 3,
+      "Southern rust": 5,
+      "": 3,
+      "Goss's wilt": 4,
+      "Eye spot": 3,
+      "Stewart's leaf blight": 3,
+      "blight - race": 1
+    },
+    "herbicide": {
+      "Growth regulators": "sensitivityC",
+      "Isoxazoles sensitivity -": "preemergenceA",
+      "Sulfonylureas": "sensitivityA"
+    }
+  },
+  "DKC47-27RIB": {
+    "name": "DKC47-27RIB",
+    "crop": "Corn",
+    "maturity": "97",
+    "trait": "DGVT2PRIB",
+    "strengthAndManagement": [
+      "Outstanding top-end yield potential for a 97 RM product",
+      "Has shown excellent drought tolerance",
+      "Has shown very good emergence and excellent seedling vigor"
+    ],
+    "characteristics": {
+      "Gdus to mid-pollination": "1253",
+      "Gdus to black layer": "2375",
+      "Relative maturity": "97",
+      "Variety": "01048675",
+      "Kernel row": "16"
+    },
+    "agronomics": {
+      "Seedling growth": 3,
+      "Emergence": 3,
+      "Root strength": 4,
+      "Stalk strength": 3,
+      "Drought tolerance": 1,
+      "Greensnap tolerance": 3,
+      "Staygreen": 3,
+      "Harvest appearance": 3,
+      "Drydown": 2,
+      "Test weight": 2,
+      "Page 1 of": 3
+    },
+    "diseaseTolerance": {
+      "Gray leaf spot": 4,
+      "Common rust": 3,
+      "Southern rust": 5,
+      "": 3,
+      "Goss's wilt": 4,
+      "Eye spot": 3,
+      "Stewart's leaf blight": 3,
+      "blight - race": 1
+    },
+    "herbicide": {
+      "Growth regulators": "sensitivityC",
+      "Isoxazoles sensitivity -": "preemergenceA",
+      "Sulfonylureas": "sensitivityA"
+    }
+  },
+  "DKC47-48RIB": {
+    "name": "DKC47-48RIB",
+    "crop": "",
+    "maturity": "",
+    "trait": "",
+    "strengthAndManagement": [
+      "Ve r y   s t ro n g   d i s e a s e   p a c k a g e   a n d   l a t e   s e a s o n   h e a l t h",
+      "B ro a d   a d a p t a b i l i t y   f ro m   b o t h   a   y i e l d   a n d   d i s e a s e   s t a n d p o i n t",
+      "H a s   s h o w n   s t ro n g   s t a l k s   a n d   ro o t s   t h a t   h e l p   p ro v i d e   g o o d   l a t e   s e a s o n   s t a n d a b i l i t y"
+    ],
+    "characteristics": {
+      "Gdus to mid-pollination": "1270",
+      "Gdus to black layer": "2425",
+      "Relative maturity": "97",
+      "Variety": "01065397",
+      "Kernel row": "18"
+    },
+    "agronomics": {
+      "Seedling growth": 1,
+      "Emergence": 1,
+      "Root strength": 2,
+      "Stalk strength": 2,
+      "Drought tolerance": 2,
+      "Greensnap tolerance": 4,
+      "Staygreen": 2,
+      "Harvest appearance": 2,
+      "Drydown": 4,
+      "Test weight": 4,
+      "P a g e   1   o f": 3
+    },
+    "diseaseTolerance": {
+      "Gray leaf spot": 5,
+      "Common rust": 4,
+      "": 3,
+      "Goss's wilt": 4,
+      "Eye spot": 3,
+      "Stewart's leaf blight": 2,
+      "blight - race": 1
+    },
+    "herbicide": {
+      "Growth regulators": "sensitivityA",
+      "Isoxazoles sensitivity -": "preemergenceA",
+      "Sulfonylureas": "sensitivityA"
+    }
+  },
+  "DKC47-85RIB": {
+    "name": "DKC47-85RIB",
+    "crop": "Corn",
+    "maturity": "97",
+    "trait": "VT2PRIB",
+    "strengthAndManagement": [
+      "Outstanding yield potential with semi-fixed ear; consider medium-high population",
+      "Strong Goss’s Wilt, Northern Corn Leaf Blight, and Anthracnose Stalk Rot disease tolerance package",
+      "Strong defensive package with excellent stress tolerance, strong greensnap tolerance, and solid root and stalk strength"
+    ],
+    "characteristics": {
+      "Gdus to mid-pollination": "1260",
+      "Gdus to black layer": "2415",
+      "Relative maturity": "97",
+      "Variety": "01090936",
+      "Kernel row": "16"
+    },
+    "agronomics": {
+      "Seedling growth": 3,
+      "Emergence": 3,
+      "Root strength": 2,
+      "Stalk strength": 3,
+      "Drought tolerance": 2,
+      "Greensnap tolerance": 3,
+      "Staygreen": 3,
+      "Harvest appearance": 3,
+      "Drydown": 2,
+      "Test weight": 4
+    },
+    "diseaseTolerance": {
+      "Gray leaf spot": 6,
+      "Common rust": 3,
+      "": 4,
+      "Goss's wilt": 4,
+      "blight - race": 1
+    },
+    "herbicide": {
+      "Growth regulators": "sensitivityA",
+      "Isoxazoles sensitivity -": "preemergenceA",
+      "Sulfonylureas": "sensitivityA"
+    }
+  },
+  "DKC48-34RIB": {
+    "name": "DKC48-34RIB",
+    "crop": "Corn",
+    "maturity": "98",
+    "trait": "SSRIB",
+    "strengthAndManagement": [
+      "Exceptional yield potential with broad east to west adaptation",
+      "Excellent emergence and stand establishment allow for early planting",
+      "Medium tall plant with strong agronomics including solid root and stalk strength and excellent greensnap tolerance"
+    ],
+    "characteristics": {
+      "Gdus to mid-pollination": "1275",
+      "Gdus to black layer": "2465",
+      "Relative maturity": "98",
+      "Variety": "01090069",
+      "Kernel row": "20"
+    },
+    "agronomics": {
+      "Seedling growth": 2,
+      "Emergence": 2,
+      "Root strength": 3,
+      "Stalk strength": 2,
+      "Drought tolerance": 2,
+      "Greensnap tolerance": 2,
+      "Staygreen": 2,
+      "Harvest appearance": 3,
+      "Drydown": 3,
+      "Test weight": 2
+    },
+    "diseaseTolerance": {
+      "Gray leaf spot": 5,
+      "Common rust": 3,
+      "": 5,
+      "Goss's wilt": 5,
+      "blight - race": 1
+    },
+    "herbicide": {
+      "Growth regulators": "sensitivityC",
+      "Isoxazoles sensitivity -": "preemergenceA",
+      "Sulfonylureas": "sensitivityA"
+    }
+  },
+  "DKC48-69RIB": {
+    "name": "DKC48-69RIB",
+    "crop": "Corn",
+    "maturity": "98",
+    "trait": "VT2PRIB",
+    "strengthAndManagement": [
+      "Bold field appearance, medium tall plant height with a semi-erect canopy type; medium ear height",
+      "Good overall emergence and seedling vigor package",
+      "Has shown a solid agronomic package including very good stalk and root strength as well as very good greensnap tolerance"
+    ],
+    "characteristics": {
+      "Gdus to mid-pollination": "1275",
+      "Gdus to black layer": "2465",
+      "Relative maturity": "98",
+      "Variety": "01086122",
+      "Kernel row": "20"
+    },
+    "agronomics": {
+      "Seedling growth": 3,
+      "Emergence": 3,
+      "Root strength": 2,
+      "Stalk strength": 2,
+      "Drought tolerance": 2,
+      "Greensnap tolerance": 2,
+      "Staygreen": 2,
+      "Harvest appearance": 2,
+      "Drydown": 3,
+      "Test weight": 2
+    },
+    "diseaseTolerance": {
+      "Gray leaf spot": 4,
+      "": 4,
+      "Goss's wilt": 4,
+      "blight - race": 1
+    },
+    "herbicide": {
+      "Growth regulators": "sensitivityA",
+      "Isoxazoles sensitivity -": "preemergenceA",
+      "Sulfonylureas": "sensitivityA"
+    }
+  },
+  "DKC48-95RIB": {
+    "name": "DKC48-95RIB",
+    "crop": "Corn",
+    "maturity": "98",
+    "trait": "VT2PRIB",
+    "strengthAndManagement": [
+      "Has shown ability to move North of RM zone well",
+      "Has shown very good test weight and grain quality",
+      "Can provide very good tolerance to Anthracnose Stalk Rot"
+    ],
+    "characteristics": {
+      "Gdus to mid-pollination": "1270",
+      "Gdus to black layer": "2450",
+      "Relative maturity": "98",
+      "Variety": "01080782",
+      "Kernel row": "20"
+    },
+    "agronomics": {
+      "Seedling growth": 2,
+      "Emergence": 2,
+      "Root strength": 2,
+      "Stalk strength": 3,
+      "Drought tolerance": 3,
+      "Greensnap tolerance": 3,
+      "Staygreen": 3,
+      "Harvest appearance": 3,
+      "Drydown": 2,
+      "Test weight": 3
+    },
+    "diseaseTolerance": {
+      "Gray leaf spot": 5,
+      "": 4,
+      "Goss's wilt": 4,
+      "blight - race": 1
+    },
+    "herbicide": {
+      "Growth regulators": "sensitivityA",
+      "Isoxazoles sensitivity -": "preemergenceA",
+      "Sulfonylureas": "sensitivityA"
+    }
+  },
+  "DKC49-24RIB": {
+    "name": "DKC49-24RIB",
+    "crop": "Corn",
+    "maturity": "99",
+    "trait": "SSRIB",
+    "strengthAndManagement": [
+      "Excellent emergence and early season growth offer flexibility for early planting in continuous corn environments",
+      "Adapted for central and eastern placement with potential movement north of zone",
+      "Solid agronomics including strong root and stalk strength and greensnap tolerance"
+    ],
+    "characteristics": {
+      "Gdus to mid-pollination": "1275",
+      "Gdus to black layer": "2495",
+      "Relative maturity": "99",
+      "Variety": "01090075",
+      "Kernel row": "18"
+    },
+    "agronomics": {
+      "Seedling growth": 2,
+      "Emergence": 2,
+      "Root strength": 3,
+      "Stalk strength": 3,
+      "Drought tolerance": 3,
+      "Greensnap tolerance": 2,
+      "Staygreen": 3,
+      "Harvest appearance": 3,
+      "Drydown": 3,
+      "Test weight": 3
+    },
+    "diseaseTolerance": {
+      "Gray leaf spot": 5,
+      "Common rust": 4,
+      "": 4,
+      "Goss's wilt": 5,
+      "blight - race": 1
+    },
+    "herbicide": {
+      "Growth regulators": "sensitivityA",
+      "Isoxazoles sensitivity -": "preemergenceA",
+      "Sulfonylureas": "sensitivityA"
+    }
+  },
+  "DKC49-42": {
+    "name": "DKC49-42",
+    "crop": "Corn",
+    "maturity": "99",
+    "trait": "CONV",
+    "strengthAndManagement": [
+      "Adapted to use in most yield environments",
+      "Adapted to most crop rotations including corn following corn",
+      "Above average husk coverage for maturity"
+    ],
+    "characteristics": {
+      "Gdus to mid-pollination": "1270",
+      "Gdus to black layer": "2475",
+      "Relative maturity": "99",
+      "Variety": "01074202",
+      "Kernel row": "16"
+    },
+    "agronomics": {
+      "Seedling growth": 3,
+      "Emergence": 3,
+      "Root strength": 3,
+      "Stalk strength": 2,
+      "Drought tolerance": 3,
+      "Greensnap tolerance": 2,
+      "Staygreen": 2,
+      "Harvest appearance": 2,
+      "Drydown": 3,
+      "Test weight": 3
+    },
+    "diseaseTolerance": {
+      "Gray leaf spot": 4,
+      "Southern rust": 5,
+      "": 4,
+      "Goss's wilt": 5,
+      "blight - race": 1
+    },
+    "herbicide": {
+      "Growth regulators": "sensitivityA",
+      "Isoxazoles sensitivity -": "preemergenceA",
+      "Sulfonylureas": "sensitivityA"
+    }
+  },
+  "DKC49-72RIB": {
+    "name": "DKC49-72RIB",
+    "crop": "Corn",
+    "maturity": "99",
+    "trait": "SSRIB",
+    "strengthAndManagement": [
+      "Nice defense with competitive top-end yield potential",
+      "Has shown consistent performance across yield environments",
+      "Has shown very good stalks and roots"
+    ],
+    "characteristics": {
+      "Gdus to mid-pollination": "1266",
+      "Gdus to black layer": "2475",
+      "Relative maturity": "99",
+      "Variety": "01052411",
+      "Kernel row": "16"
+    },
+    "agronomics": {
+      "Seedling growth": 1,
+      "Emergence": 1,
+      "Root strength": 1,
+      "Stalk strength": 3,
+      "Drought tolerance": 3,
+      "Greensnap tolerance": 2,
+      "Staygreen": 3,
+      "Harvest appearance": 3,
+      "Drydown": 1,
+      "Test weight": 4,
+      "Page 1 of": 3
+    },
+    "diseaseTolerance": {
+      "": 3,
+      "Gray leaf spot": 4,
+      "Common rust": 4,
+      "Goss's wilt": 5,
+      "Eye spot": 3,
+      "Stewart's leaf blight": 3,
+      "Corn lethal necrosis": 3,
+      "blight - race": 1
+    },
+    "herbicide": {
+      "Growth regulators": "sensitivityA",
+      "Isoxazoles sensitivity -": "preemergenceA",
+      "Sulfonylureas": "sensitivityA"
+    }
+  },
+  "DKC50-63RIB": {
+    "name": "DKC50-63RIB",
+    "crop": "Corn",
+    "maturity": "100",
+    "trait": "SSRIB",
+    "strengthAndManagement": [
+      "Has shown very good Goss's Wilt tolerance",
+      "Opportunity to yield very well in its RM zone with nice Southern movement",
+      "Has shown stable yields across yield environments and does very well under stress"
+    ],
+    "characteristics": {
+      "Gdus to mid-pollination": "1311",
+      "Gdus to black layer": "2500",
+      "Relative maturity": "100",
+      "Variety": "01052412",
+      "Kernel row": "18"
+    },
+    "agronomics": {
+      "Seedling growth": 2,
+      "Emergence": 2,
+      "Root strength": 5,
+      "Stalk strength": 3,
+      "Drought tolerance": 2,
+      "Greensnap tolerance": 2,
+      "Staygreen": 4,
+      "Harvest appearance": 4,
+      "Drydown": 1,
+      "Test weight": 4,
+      "Page 1 of": 3
+    },
+    "diseaseTolerance": {
+      "": 2,
+      "Gray leaf spot": 4,
+      "Common rust": 4,
+      "Goss's wilt": 2,
+      "Eye spot": 4,
+      "Stewart's leaf blight": 2,
+      "Corn lethal necrosis": 3,
+      "blight - race": 1
+    },
+    "herbicide": {
+      "Growth regulators": "sensitivityA",
+      "Isoxazoles sensitivity -": "preemergenceC",
+      "Sulfonylureas": "sensitivityA"
+    }
+  },
+  "DKC50-87RIB": {
+    "name": "DKC50-87RIB",
+    "crop": "",
+    "maturity": "",
+    "trait": "",
+    "strengthAndManagement": [
+      "Very good emergence and seedling vigor for early planting",
+      "Excellent grain quality and test weight",
+      "Product has shown a girthy semi-fixed ear type"
+    ],
+    "characteristics": {
+      "Gdus to mid-pollination": "1270",
+      "Gdus to black layer": "2510",
+      "Relative maturity": "100",
+      "Variety": "01086085",
+      "Kernel row": "18"
+    },
+    "agronomics": {
+      "Seedling growth": 2,
+      "Emergence": 2,
+      "Root strength": 2,
+      "Stalk strength": 2,
+      "Drought tolerance": 2,
+      "Greensnap tolerance": 3,
+      "Staygreen": 4,
+      "Harvest appearance": 2,
+      "Drydown": 2,
+      "Test weight": 2
+    },
+    "diseaseTolerance": {
+      "Gray leaf spot": 4,
+      "": 4,
+      "Goss's wilt": 4,
+      "blight - race": 1
+    },
+    "herbicide": {
+      "Growth regulators": "sensitivityA",
+      "Isoxazoles sensitivity -": "preemergenceA",
+      "Sulfonylureas": "sensitivityA"
+    }
+  },
+  "DKC50-88RIB": {
+    "name": "DKC50-88RIB",
+    "crop": "",
+    "maturity": "",
+    "trait": "",
+    "strengthAndManagement": [
+      "Very good emergence and seedling vigor for early planting",
+      "Excellent grain quality and test weight",
+      "Product has shown a girthy semi-fixed ear type"
+    ],
+    "characteristics": {
+      "Gdus to mid-pollination": "1270",
+      "Gdus to black layer": "2505",
+      "Relative maturity": "100",
+      "Variety": "01086087",
+      "Kernel row": "18"
+    },
+    "agronomics": {
+      "Seedling growth": 2,
+      "Emergence": 2,
+      "Root strength": 2,
+      "Stalk strength": 2,
+      "Drought tolerance": 2,
+      "Greensnap tolerance": 2,
+      "Staygreen": 4,
+      "Harvest appearance": 2,
+      "Drydown": 2,
+      "Test weight": 2
+    },
+    "diseaseTolerance": {
+      "Gray leaf spot": 4,
+      "": 4,
+      "Goss's wilt": 5,
+      "blight - race": 1
+    },
+    "herbicide": {
+      "Growth regulators": "sensitivityA",
+      "Isoxazoles sensitivity -": "preemergenceA",
+      "Sulfonylureas": "sensitivityA"
+    }
+  },
+  "DKC51-20RIB": {
+    "name": "DKC51-20RIB",
+    "crop": "Corn",
+    "maturity": "101",
+    "trait": "DGVT2PRIB",
+    "strengthAndManagement": [
+      "Very good drought tolerance",
+      "Has shown strong top-end yield potential",
+      "Has shown consistent performance in low-end yield environments"
+    ],
+    "characteristics": {
+      "Gdus to mid-pollination": "1282",
+      "Gdus to black layer": "2525",
+      "Relative maturity": "101",
+      "Variety": "01048683",
+      "Kernel row": "16"
+    },
+    "agronomics": {
+      "Seedling growth": 3,
+      "Emergence": 2,
+      "Root strength": 2,
+      "Stalk strength": 4,
+      "Drought tolerance": 1,
+      "Greensnap tolerance": 3,
+      "Staygreen": 3,
+      "Harvest appearance": 3,
+      "Drydown": 2,
+      "Test weight": 3,
+      "Page 1 of": 3
+    },
+    "diseaseTolerance": {
+      "Gray leaf spot": 5,
+      "Common rust": 4,
+      "": 5,
+      "Goss's wilt": 4,
+      "Eye spot": 4,
+      "Stewart's leaf blight": 5,
+      "blight - race": 1
+    },
+    "herbicide": {
+      "Growth regulators": "sensitivityC",
+      "Isoxazoles sensitivity -": "preemergenceA",
+      "Sulfonylureas": "sensitivityA"
+    }
+  },
+  "DKC51-25RIB": {
+    "name": "DKC51-25RIB",
+    "crop": "Corn",
+    "maturity": "101",
+    "trait": "VT2PRIB",
+    "strengthAndManagement": [
+      "Has shown outstanding yield stability in lower yield environments",
+      "Decent ear flex allows planting at moderate populations",
+      "Has shown good Southern movement for early corn markets"
+    ],
+    "characteristics": {
+      "Gdus to mid-pollination": "1300",
+      "Gdus to black layer": "2530",
+      "Relative maturity": "101",
+      "Variety": "01079527",
+      "Kernel row": "18"
+    },
+    "agronomics": {
+      "Seedling growth": 3,
+      "Emergence": 3,
+      "Root strength": 3,
+      "Stalk strength": 3,
+      "Drought tolerance": 3,
+      "Greensnap tolerance": 2,
+      "Staygreen": 4,
+      "Harvest appearance": 3,
+      "Drydown": 2,
+      "Test weight": 2
+    },
+    "diseaseTolerance": {
+      "Gray leaf spot": 4,
+      "Southern rust": 6,
+      "": 4,
+      "Goss's wilt": 4,
+      "blight - race": 1
+    },
+    "herbicide": {
+      "Growth regulators": "sensitivityA",
+      "Isoxazoles sensitivity -": "preemergenceA",
+      "Sulfonylureas": "sensitivityA"
+    }
+  },
+  "DKC51-91RIB": {
+    "name": "DKC51-91RIB",
+    "crop": "Corn",
+    "maturity": "101",
+    "trait": "SSRIB",
+    "strengthAndManagement": [
+      "Has shown excellent ear flex capability",
+      "Outstanding top-end yield potential",
+      "No known herbicide sensitivities"
+    ],
+    "characteristics": {
+      "Gdus to mid-pollination": "1275",
+      "Gdus to black layer": "2530",
+      "Relative maturity": "101",
+      "Variety": "01074715",
+      "Kernel row": "16"
+    },
+    "agronomics": {
+      "Seedling growth": 3,
+      "Emergence": 3,
+      "Root strength": 2,
+      "Stalk strength": 4,
+      "Drought tolerance": 1,
+      "Greensnap tolerance": 2,
+      "Staygreen": 4,
+      "Harvest appearance": 4,
+      "Drydown": 3,
+      "Test weight": 4
+    },
+    "diseaseTolerance": {
+      "Gray leaf spot": 5,
+      "Southern rust": 5,
+      "": 4,
+      "Goss's wilt": 4,
+      "blight - race": 1
+    },
+    "herbicide": {
+      "Growth regulators": "sensitivityA",
+      "Isoxazoles sensitivity -": "preemergenceA",
+      "Sulfonylureas": "sensitivityA"
+    }
+  },
+  "DKC51-92RIB": {
+    "name": "DKC51-92RIB",
+    "crop": "Corn",
+    "maturity": "101",
+    "trait": "VT2PRIB",
+    "strengthAndManagement": [
+      "Has shown excellent ear flex capability",
+      "Outstanding top-end yield potential",
+      "No known herbicide sensitivities"
+    ],
+    "characteristics": {
+      "Gdus to mid-pollination": "1275",
+      "Gdus to black layer": "2530",
+      "Relative maturity": "101",
+      "Variety": "01084873",
+      "Kernel row": "16"
+    },
+    "agronomics": {
+      "Seedling growth": 3,
+      "Emergence": 3,
+      "Root strength": 2,
+      "Stalk strength": 4,
+      "Drought tolerance": 1,
+      "Greensnap tolerance": 2,
+      "Staygreen": 4,
+      "Harvest appearance": 4,
+      "Drydown": 3,
+      "Test weight": 4
+    },
+    "diseaseTolerance": {
+      "Gray leaf spot": 5,
+      "Southern rust": 5,
+      "": 4,
+      "Goss's wilt": 4,
+      "blight - race": 1
+    },
+    "herbicide": {
+      "Growth regulators": "sensitivityA",
+      "Isoxazoles sensitivity -": "preemergenceA",
+      "Sulfonylureas": "sensitivityA"
+    }
+  },
+  "DKC51-98RIB": {
+    "name": "DKC51-98RIB",
+    "crop": "Corn",
+    "maturity": "101",
+    "trait": "SSRIB",
+    "strengthAndManagement": [
+      "Stalk and root strength have appeared strong",
+      "Has been an attractive plant type at harvest",
+      "Good Goss's Wilt tolerance allows use in Western corn growing areas"
+    ],
+    "characteristics": {
+      "Gdus to mid-pollination": "1270",
+      "Gdus to black layer": "2525",
+      "Relative maturity": "101",
+      "Variety": "01080957",
+      "Kernel row": "16"
+    },
+    "agronomics": {
+      "Seedling growth": 2,
+      "Emergence": 2,
+      "Root strength": 3,
+      "Stalk strength": 3,
+      "Drought tolerance": 3,
+      "Greensnap tolerance": 4,
+      "Staygreen": 3,
+      "Harvest appearance": 3,
+      "Drydown": 2,
+      "Test weight": 4
+    },
+    "diseaseTolerance": {
+      "Gray leaf spot": 5,
+      "": 4,
+      "Goss's wilt": 4,
+      "blight - race": 1
+    },
+    "herbicide": {
+      "Growth regulators": "sensitivityA",
+      "Isoxazoles sensitivity -": "preemergenceA",
+      "Sulfonylureas": "sensitivityA"
+    }
+  }
+}

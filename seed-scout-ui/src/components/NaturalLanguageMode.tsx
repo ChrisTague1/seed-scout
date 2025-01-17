@@ -31,13 +31,15 @@ export default function NaturalLanguageMode() {
           onChange={(e) => setInput(e.target.value)}
         ></textarea>
         <button
-          type="submit"
-          className="mt-4 px-6 py-2 bg-green-600 text-white rounded-md hover:bg-green-700 transition-colors duration-300"
-        >
-          Find Varieties
-        </button>
+  type="submit"
+  className="w-full mt-4 px-6 py-3 bg-gradient-to-r from-green-600 to-green-500 
+    text-white font-medium rounded-xl shadow-lg
+    hover:shadow-xl hover:ring-2 hover:ring-green-400 hover:ring-opacity-50 
+    transition-all duration-300 ease-in-out"
+>
+  Find Varieties
+</button>
       </form>
     </motion.div>
   )
 }
-
