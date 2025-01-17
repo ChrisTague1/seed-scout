@@ -44,17 +44,27 @@ async function downloadPDFFromPage(browser, url) {
 
 async function main() {
     const browser = await puppeteer.launch({
-        headless: false,
+        headless: true,
         defaultViewport: null,
         args: ['--no-sandbox', '--disable-setuid-sandbox']
     });
 
+    const urls = [
+        'https://www.cropscience.bayer.us/d/dekalb-dkc081-18rib-corn',
+        'https://www.cropscience.bayer.us/d/dekalb-dkc084-15rib-corn',
+        'https://www.cropscience.bayer.us/d/dekalb-dkc092-13rib-corn',
+        'https://www.cropscience.bayer.us/d/dekalb-dkc092-14rib-corn',
+    ];
+
     try {
-        const url = 'https://www.cropscience.bayer.us/d/dekalb-dkc081-18rib-corn';
-        await downloadPDFFromPage(browser, url);
-        console.log('Downloaded')
-    } catch (error) {
-        console.error('Download failed:', error);
+        await Promise.all(urls.map(async (url, i) => {
+            try {
+                await downloadPDFFromPage(browser, url);
+                console.log(`Downloaded ${i + 1}/${urls.length}: ${url}`);
+            } catch (error) {
+                console.error(`Failed ${i + 1}/${urls.length}: ${url}`, error);
+            }
+        }));
     } finally {
         await browser.close();
     }
