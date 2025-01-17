@@ -13,11 +13,11 @@ async function downloadPDFFromPage(browser, url) {
     const page = await browser.newPage();
     
     // Add request interception to debug
-    await page.setRequestInterception(true);
-    page.on('request', request => {
-        console.log(`Request: ${request.url()}`);
-        request.continue();
-    });
+    // await page.setRequestInterception(true);
+    // page.on('request', request => {
+    //     console.log(`Request: ${request.url()}`);
+    //     request.continue();
+    // });
 
     // Add error logging
     page.on('error', err => console.error('Page error:', err));
@@ -40,7 +40,7 @@ async function downloadPDFFromPage(browser, url) {
         console.log('Page loaded, waiting for button...');
         await page.waitForSelector('button.Overview_download-button__zOUg6', {
             visible: true,
-            timeout: 30000
+            // timeout: 30000
         });
 
         await page.evaluate(() => {
@@ -49,7 +49,7 @@ async function downloadPDFFromPage(browser, url) {
         });
 
         // Wait for download to start
-        await new Promise(resolve => setTimeout(resolve, 5000));
+        await new Promise(resolve => setTimeout(resolve, 2000));
     } catch (error) {
         console.error(`Error processing ${url}:`, error);
         throw error;
