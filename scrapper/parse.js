@@ -2,17 +2,14 @@ const fs = require('fs');
 const pdf = require('pdf-parse');
 
 const files = fs.readdirSync('./downloads').map(f => `./downloads/${f}`);
-const file = files[0];
 
-async function parseCornPDF(filePath) {
-    const dataBuffer = fs.readFileSync(filePath);
-    
+async function parseCornPDF(pdfPath) {
     try {
+        const dataBuffer = fs.readFileSync(pdfPath);
         const data = await pdf(dataBuffer);
         const text = data.text;
-        const lines = text.split('\n').map(line => line.trim()).filter(line => line);
 
-        const cornData = {
+        const result = {
             name: '',
             crop: '',
             maturity: '',
@@ -24,96 +21,156 @@ async function parseCornPDF(filePath) {
             herbicide: {}
         };
 
-        // Get name (it's usually the first non-empty line)
-        cornData.name = lines[0];
+        const lines = text.split('\n').map(line => line.trim()).filter(line => line);
 
-        // Find basic info
-        for (let i = 0; i < lines.length; i++) {
-            const line = lines[i].trim();
-            
-            if (line === 'CROP') {
-                cornData.crop = lines[i + 1];
-            }
-            if (line === 'MATURITY') {
-                cornData.maturity = lines[i + 1];
-            }
-            if (line === 'TRAIT') {
-                cornData.trait = lines[i + 1];
-            }
-        }
+        // Extract basic information
+        result.name = lines.find(line => line.match(/^DKC\d+-\d+RIB$/));
+        result.crop = lines.find(line => line.match(/^Corn$/));
+        result.maturity = lines.find(line => /^\d+$/.test(line));
+        result.trait = lines.find(line => line.match(/^VT2PRIB$/));
 
-        // Get Strength and Management section
-        let managementIndex = lines.findIndex(line => line === 'STRENGTH AND MANAGEMENT');
-        if (managementIndex !== -1) {
-            let i = managementIndex + 1;
-            while (i < lines.length && !lines[i].includes('CHARACTERISTICS')) {
-                if (lines[i].startsWith('•')) {
-                    cornData.strengthAndManagement.push(
-                        lines[i].replace('•', '').trim()
-                    );
-                }
-                i++;
-            }
-        }
-
-        // Get sections
         let currentSection = '';
-        for (let i = 0; i < lines.length; i++) {
-            const line = lines[i].trim();
-            
-            // Check for section headers
-            if (line === 'CHARACTERISTICS') {
-                currentSection = 'characteristics';
-                continue;
-            } else if (line === 'AGRONOMICS') {
-                currentSection = 'agronomics';
-                continue;
-            } else if (line === 'DISEASE TOLERANCE') {
-                currentSection = 'diseaseTolerance';
-                continue;
-            } else if (line === 'HERBICIDE') {
-                currentSection = 'herbicide';
-                continue;
+        
+        function parseValue(value) {
+            // If the value is numeric, convert it to a number
+            if (/^\d+$/.test(value)) {
+                return parseInt(value);
+            }
+            return value;
+        }
+
+        function processLine(line, section) {
+            // Handle special cases for characteristics section
+            if (section === 'characteristics') {
+                if (line.startsWith('Gdus to mid-pollination')) {
+                    const value = line.match(/\d+$/)?.[0];
+                    if (value) result.characteristics['gdus to mid-pollination'] = parseValue(value);
+                    return;
+                }
+                if (line.startsWith('Gdus to black layer')) {
+                    const value = line.match(/\d+$/)?.[0];
+                    if (value) result.characteristics['gdus to black layer'] = parseValue(value);
+                    return;
+                }
+                if (line.startsWith('Value added trait')) {
+                    const value = line.split('Value added trait')?.[1]?.trim();
+                    if (value) result.characteristics['value added trait'] = value;
+                    return;
+                }
+                if (line.startsWith('Relative maturity')) {
+                    const value = line.match(/\d+$/)?.[0];
+                    if (value) result.characteristics['relative maturity'] = parseValue(value);
+                    return;
+                }
+                if (line.startsWith('Planting rate')) {
+                    const value = line.split('Planting rate')?.[1]?.trim();
+                    if (value) result.characteristics['planting rate'] = value;
+                    return;
+                }
+                if (line.startsWith('New product')) {
+                    const value = line.split('New product')?.[1]?.trim();
+                    if (value) result.characteristics['new product'] = value;
+                    return;
+                }
+                if (line.startsWith('Variety')) {
+                    const value = line.split('Variety')?.[1]?.trim();
+                    if (value) result.characteristics['variety'] = value;
+                    return;
+                }
+                if (line.startsWith('Cob color')) {
+                    const value = line.split('Cob color')?.[1]?.trim();
+                    if (value) result.characteristics['cob color'] = value;
+                    return;
+                }
+                if (line.startsWith('Kernel cap color')) {
+                    const value = line.split('Kernel cap color')?.[1]?.trim();
+                    if (value) result.characteristics['kernel cap color'] = value;
+                    return;
+                }
+                if (line.startsWith('Kernel row')) {
+                    const value = line.match(/\d+$/)?.[0];
+                    if (value) result.characteristics['kernel row'] = parseValue(value);
+                    return;
+                }
             }
 
-            // Skip empty lines, headers, and key explanations
-            if (!line || line.includes('*Key') || line.includes('Poor') || 
-                line === 'Page 1 of 2' || line === 'Page 2 of 2') {
-                continue;
-            }
-
-            // Process line based on current section
-            if (currentSection) {
-                // Split the line into key and value, handling numeric values at the end
-                const matches = line.match(/^(.*?)\s*(\d+)$/);
-                if (matches) {
-                    const [_, key, value] = matches;
-                    
-                    switch (currentSection) {
-                        case 'characteristics':
-                            cornData.characteristics[key.trim()] = value;
-                            break;
-                        case 'agronomics':
-                            cornData.agronomics[key.trim()] = parseInt(value);
-                            break;
-                        case 'diseaseTolerance':
-                            cornData.diseaseTolerance[key.trim()] = parseInt(value);
-                            break;
-                    }
-                } else if (currentSection === 'herbicide' && line.includes('sensitivity')) {
-                    const parts = line.split(/\s+/);
-                    const value = parts.pop();
-                    const key = parts.join(' ');
-                    if (key && value) {
-                        cornData.herbicide[key] = value;
-                    }
+            // Handle other sections
+            const parts = line.split(/(?=[0-9A-Z-])/).map(part => part.trim());
+            if (parts.length >= 2) {
+                const key = parts[0].toLowerCase();
+                const value = parseValue(parts[parts.length - 1]);
+                
+                switch(section) {
+                    case 'agronomics':
+                        result.agronomics[key] = value;
+                        break;
+                    case 'diseaseTolerance':
+                        result.diseaseTolerance[key] = value;
+                        break;
+                    case 'herbicide':
+                        result.herbicide[key] = value;
+                        break;
                 }
             }
         }
 
-        return cornData;
+        for (let i = 0; i < lines.length; i++) {
+            if (lines[i] === 'STRENGTH AND MANAGEMENT') {
+                i++;
+                while (i < lines.length && lines[i].startsWith('•')) {
+                    result.strengthAndManagement.push(lines[i].substring(2).trim());
+                    i++;
+                }
+            }
+
+            if (lines[i] === 'CHARACTERISTICS') {
+                currentSection = 'characteristics';
+                i++;
+                while (i < lines.length && !['AGRONOMICS', 'DISEASE TOLERANCE', 'HERBICIDE'].includes(lines[i])) {
+                    if (lines[i]) {
+                        processLine(lines[i], currentSection);
+                    }
+                    i++;
+                }
+            }
+
+            if (lines[i] === 'AGRONOMICS') {
+                currentSection = 'agronomics';
+                i++;
+                while (i < lines.length && !['DISEASE TOLERANCE', 'HERBICIDE'].includes(lines[i])) {
+                    if (lines[i]) {
+                        processLine(lines[i], currentSection);
+                    }
+                    i++;
+                }
+            }
+
+            if (lines[i] === 'DISEASE TOLERANCE') {
+                currentSection = 'diseaseTolerance';
+                i++;
+                while (i < lines.length && !['HERBICIDE'].includes(lines[i])) {
+                    if (lines[i]) {
+                        processLine(lines[i], currentSection);
+                    }
+                    i++;
+                }
+            }
+
+            if (lines[i] === 'HERBICIDE') {
+                currentSection = 'herbicide';
+                i++;
+                while (i < lines.length && lines[i] !== '*Key') {
+                    if (lines[i]) {
+                        processLine(lines[i], currentSection);
+                    }
+                    i++;
+                }
+            }
+        }
+
+        return result;
     } catch (error) {
-        console.error(`Error parsing PDF ${filePath}:`, error);
+        console.error('Error parsing PDF:', error);
         throw error;
     }
 }
@@ -121,12 +178,10 @@ async function parseCornPDF(filePath) {
 async function processAllFiles() {
     const allData = {};
     
-    // Process each file
     for (const file of files) {
         try {
             console.log(`Processing ${file}...`);
             const data = await parseCornPDF(file);
-            // Use the name as the key in the object
             if (data.name) {
                 allData[data.name] = data;
             }
@@ -135,7 +190,6 @@ async function processAllFiles() {
         }
     }
     
-    // Write to data.json
     try {
         fs.writeFileSync('data.json', JSON.stringify(allData, null, 2));
         console.log('Successfully wrote data.json');
@@ -144,5 +198,4 @@ async function processAllFiles() {
     }
 }
 
-// Run the processing
 processAllFiles().catch(console.error);
