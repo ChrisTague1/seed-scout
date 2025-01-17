@@ -7,46 +7,68 @@ async function downloadPDFFromPage(browser, url) {
     console.log(`Setting up download directory at: ${downloadPath}`);
     
     if (!fs.existsSync(downloadPath)) {
-        console.log('Downloads directory does not exist, creating it...');
         fs.mkdirSync(downloadPath);
-        console.log('Downloads directory created successfully');
     }
 
-    let page;
-    console.log('Creating new page...');
-    page = await browser.newPage();
+    const page = await browser.newPage();
     
-    console.log('Configuring download behavior...');
-    const client = await page.createCDPSession();
-    await client.send('Page.setDownloadBehavior', {
+    // Add request interception to debug
+    await page.setRequestInterception(true);
+    page.on('request', request => {
+        console.log(`Request: ${request.url()}`);
+        request.continue();
+    });
+
+    // Add error logging
+    page.on('error', err => console.error('Page error:', err));
+    page.on('console', msg => console.log('Page log:', msg.text()));
+
+    await page.setViewport({ width: 1366, height: 768 });
+    
+    await page._client().send('Page.setDownloadBehavior', {
         behavior: 'allow',
         downloadPath: downloadPath
     });
 
-    console.log('Navigating to webpage...');
-    const response = await page.goto(url, {
-        waitUntil: 'domcontentloaded',
-    });
-    console.log(`Page loaded with status: ${response.status()}`);
+    try {
+        console.log('Navigating to webpage...');
+        await page.goto(url, {
+            waitUntil: 'networkidle2', // Less strict than networkidle0
+            // timeout: 60000 // Increase timeout to 60 seconds
+        });
 
-    console.log('Waiting for Download PDF button to be available...');
-    const downloadButton = await page.waitForSelector('button.Overview_download-button__zOUg6', {
-        timeout: 10000,
-        visible: true
-    });
+        console.log('Page loaded, waiting for button...');
+        await page.waitForSelector('button.Overview_download-button__zOUg6', {
+            visible: true,
+            timeout: 30000
+        });
 
-    console.log('Attempting to click download button...');
-    await downloadButton.click();
+        await page.evaluate(() => {
+            const button = document.querySelector('button.Overview_download-button__zOUg6');
+            if (button) button.click();
+        });
 
-    console.log('Waiting for download to initiate...');
-    await new Promise(resolve => setTimeout(resolve, 2000));
+        // Wait for download to start
+        await new Promise(resolve => setTimeout(resolve, 5000));
+    } catch (error) {
+        console.error(`Error processing ${url}:`, error);
+        throw error;
+    } finally {
+        await page.close();
+    }
 }
 
 async function main() {
     const browser = await puppeteer.launch({
         headless: true,
         defaultViewport: null,
-        args: ['--no-sandbox', '--disable-setuid-sandbox']
+        args: [
+            '--no-sandbox',
+            '--disable-setuid-sandbox',
+            '--window-size=1366,768',
+            '--disable-web-security',
+            '--disable-features=IsolateOrigins,site-per-process'
+        ]
     });
 
     const urls = [
@@ -57,14 +79,16 @@ async function main() {
     ];
 
     try {
-        await Promise.all(urls.map(async (url, i) => {
+        for (let i = 0; i < urls.length; i++) {
             try {
-                await downloadPDFFromPage(browser, url);
-                console.log(`Downloaded ${i + 1}/${urls.length}: ${url}`);
+                await downloadPDFFromPage(browser, urls[i]);
+                console.log(`Downloaded ${i + 1}/${urls.length}: ${urls[i]}`);
             } catch (error) {
-                console.error(`Failed ${i + 1}/${urls.length}: ${url}`, error);
+                console.error(`Failed ${i + 1}/${urls.length}: ${urls[i]}`);
             }
-        }));
+            // Add delay between requests
+            await new Promise(resolve => setTimeout(resolve, 2000));
+        }
     } finally {
         await browser.close();
     }
