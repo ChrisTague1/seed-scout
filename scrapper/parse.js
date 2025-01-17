@@ -2,8 +2,7 @@ const fs = require('fs');
 const pdf = require('pdf-parse');
 
 const files = fs.readdirSync('./downloads').map(f => `./downloads/${f}`);
-
-const file = files[0]
+const file = files[0];
 
 async function parseCornPDF(filePath) {
     const dataBuffer = fs.readFileSync(filePath);
@@ -30,36 +29,39 @@ async function parseCornPDF(filePath) {
 
         // Find basic info
         for (let i = 0; i < lines.length; i++) {
-            const line = lines[i];
+            const line = lines[i].trim();
             
-            if (line.startsWith('CROP')) {
+            if (line === 'CROP') {
                 cornData.crop = lines[i + 1];
             }
-            if (line.startsWith('MATURITY')) {
+            if (line === 'MATURITY') {
                 cornData.maturity = lines[i + 1];
             }
-            if (line.startsWith('TRAIT')) {
+            if (line === 'TRAIT') {
                 cornData.trait = lines[i + 1];
             }
         }
 
         // Get Strength and Management section
-        let managementIndex = lines.findIndex(line => line.includes('STRENGTH AND MANAGEMENT'));
+        let managementIndex = lines.findIndex(line => line === 'STRENGTH AND MANAGEMENT');
         if (managementIndex !== -1) {
-            while (lines[++managementIndex] && !lines[managementIndex].includes('CHARACTERISTICS')) {
-                if (lines[managementIndex].startsWith('•')) {
+            let i = managementIndex + 1;
+            while (i < lines.length && !lines[i].includes('CHARACTERISTICS')) {
+                if (lines[i].startsWith('•')) {
                     cornData.strengthAndManagement.push(
-                        lines[managementIndex].replace('•', '').trim()
+                        lines[i].replace('•', '').trim()
                     );
                 }
+                i++;
             }
         }
 
-        // Get Characteristics section
+        // Get sections
         let currentSection = '';
         for (let i = 0; i < lines.length; i++) {
-            const line = lines[i];
+            const line = lines[i].trim();
             
+            // Check for section headers
             if (line === 'CHARACTERISTICS') {
                 currentSection = 'characteristics';
                 continue;
@@ -74,38 +76,31 @@ async function parseCornPDF(filePath) {
                 continue;
             }
 
-            if (currentSection === 'characteristics') {
-                if (line.includes('Gdus') || line.includes('Value') || 
-                    line.includes('Relative') || line.includes('Planting') ||
-                    line.includes('New product') || line.includes('Variety') ||
-                    line.includes('Cob color') || line.includes('Kernel')) {
-                    const parts = line.split(/\s+/);
-                    const value = parts.pop();
-                    const key = parts.join(' ');
-                    if (key && value) {
-                        cornData.characteristics[key] = value;
+            // Skip empty lines, headers, and key explanations
+            if (!line || line.includes('*Key') || line.includes('Poor') || 
+                line === 'Page 1 of 2' || line === 'Page 2 of 2') {
+                continue;
+            }
+
+            // Process line based on current section
+            if (currentSection) {
+                // Split the line into key and value, handling numeric values at the end
+                const matches = line.match(/^(.*?)\s*(\d+)$/);
+                if (matches) {
+                    const [_, key, value] = matches;
+                    
+                    switch (currentSection) {
+                        case 'characteristics':
+                            cornData.characteristics[key.trim()] = value;
+                            break;
+                        case 'agronomics':
+                            cornData.agronomics[key.trim()] = parseInt(value);
+                            break;
+                        case 'diseaseTolerance':
+                            cornData.diseaseTolerance[key.trim()] = parseInt(value);
+                            break;
                     }
-                }
-            } else if (currentSection === 'agronomics') {
-                if (line && !line.includes('*Key') && !line.includes('Poor')) {
-                    const parts = line.split(/\s+/);
-                    const value = parts.pop();
-                    const key = parts.join(' ');
-                    if (key && value && !isNaN(value)) {
-                        cornData.agronomics[key] = parseInt(value);
-                    }
-                }
-            } else if (currentSection === 'diseaseTolerance') {
-                if (line && !line.includes('*Key') && !line.includes('Poor')) {
-                    const parts = line.split(/\s+/);
-                    const value = parts.pop();
-                    const key = parts.join(' ');
-                    if (key && value && !isNaN(value)) {
-                        cornData.diseaseTolerance[key] = parseInt(value);
-                    }
-                }
-            } else if (currentSection === 'herbicide') {
-                if (line && !line.includes('*Key') && !line.includes('Poor')) {
+                } else if (currentSection === 'herbicide' && line.includes('sensitivity')) {
                     const parts = line.split(/\s+/);
                     const value = parts.pop();
                     const key = parts.join(' ');
@@ -123,5 +118,4 @@ async function parseCornPDF(filePath) {
     }
 }
 
-parseCornPDF(file).then(console.log).catch(console.log);
-
+parseCornPDF(file).then(console.log).catch(console.error);
