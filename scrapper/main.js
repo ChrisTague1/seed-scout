@@ -12,13 +12,6 @@ async function downloadPDFFromPage(browser, url) {
 
     const page = await browser.newPage();
     
-    // Add request interception to debug
-    // await page.setRequestInterception(true);
-    // page.on('request', request => {
-    //     console.log(`Request: ${request.url()}`);
-    //     request.continue();
-    // });
-
     // Add error logging
     page.on('error', err => console.error('Page error:', err));
     page.on('console', msg => console.log('Page log:', msg.text()));
@@ -34,13 +27,11 @@ async function downloadPDFFromPage(browser, url) {
         console.log('Navigating to webpage...');
         await page.goto(url, {
             waitUntil: 'networkidle2', // Less strict than networkidle0
-            // timeout: 60000 // Increase timeout to 60 seconds
         });
 
         console.log('Page loaded, waiting for button...');
         await page.waitForSelector('button.Overview_download-button__zOUg6', {
             visible: true,
-            // timeout: 30000
         });
 
         await page.evaluate(() => {
@@ -49,7 +40,7 @@ async function downloadPDFFromPage(browser, url) {
         });
 
         // Wait for download to start
-        await new Promise(resolve => setTimeout(resolve, 2000));
+        await new Promise(resolve => setTimeout(resolve, 500));
     } catch (error) {
         console.error(`Error processing ${url}:`, error);
         throw error;
@@ -169,12 +160,6 @@ const urls = [
     "https://www.cropscience.bayer.us/d/dekalb-dkc51-92rib-corn",
     "https://www.cropscience.bayer.us/d/dekalb-dkc51-98rib-corn"
 ]
-    // const urls = [
-    //     'https://www.cropscience.bayer.us/d/dekalb-dkc081-18rib-corn',
-    //     'https://www.cropscience.bayer.us/d/dekalb-dkc084-15rib-corn',
-    //     'https://www.cropscience.bayer.us/d/dekalb-dkc092-13rib-corn',
-    //     'https://www.cropscience.bayer.us/d/dekalb-dkc092-14rib-corn',
-    // ];
 
     try {
         for (let i = 0; i < urls.length; i++) {
@@ -185,7 +170,7 @@ const urls = [
                 console.error(`Failed ${i + 1}/${urls.length}: ${urls[i]}`);
             }
             // Add delay between requests
-            await new Promise(resolve => setTimeout(resolve, 2000));
+            await new Promise(resolve => setTimeout(resolve, 500));
         }
     } finally {
         await browser.close();
